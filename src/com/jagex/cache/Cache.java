@@ -96,8 +96,6 @@ public class Cache {
 	
 	public void rebuild(boolean full) {
 		byte[] orig = indices[0].decompress(5);
-		System.out.println(orig);
-		System.out.println(orig.length);
 
 		Archive archive = new Archive(orig);
 		
@@ -144,8 +142,7 @@ public class Cache {
 		
 		try {
 			byte[] rebuilt = archive.recompile();
-			System.out.println(rebuilt);
-			System.out.println(rebuilt.length);
+			System.out.println("Updated version list - size was ("+orig.length+") and now is ("+rebuilt.length+")");
 			indices[0].put(rebuilt, 5, rebuilt.length);
 		} catch (IOException e) {
 			e.printStackTrace();
