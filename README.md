@@ -12,10 +12,12 @@ You can also run it via java -jar CacheRepacker.jar
 
 Cache completion can be checked with java -jar CacheChecker.jar
 
+
 Sources
 Some code is derived from Tom's Cache Suite for archive repacking.
 Index/buffer/bzip classes are from major's renamed 317 client.
 JagBZip2OutputStream is a modified version of Itadaki Jbzip2 to skip the first 4 bytes/header.
+
 
 Other alternatives were:
 Tom's Cache Suite
