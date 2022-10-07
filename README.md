@@ -1,4 +1,4 @@
-# cachelib
+# cachetool
 
 
 There is a Cache Checker and Cache Repacker in the tools package.
