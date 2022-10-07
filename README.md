@@ -1,5 +1,4 @@
-# cachetool
-
+# This is a tool to repack files from 234-377 runescape caches.
 
 ## There is a Cache Checker and Cache Repacker in the tools package.
 
