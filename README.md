@@ -16,8 +16,8 @@ You can also run it via java -jar CacheRepacker.jar
 Cache completion can be checked with java -jar CacheChecker.jar
 
 
-The cache repacker will only work for unmodified caches. If you have a cache that has incorrect version/crc data you will need to call rebuild(true). This will update the crc values and version information in the versionlist.
-This will only work for unmodified 
+The cache repacker will only work for unmodified caches. If you have a cache that has incorrect version/crc data from packing files through the client without updating the crc/version information, you will need to call rebuild(true). This will update the crc values and version information in the versionlist.
+
 
 #Sources
 
