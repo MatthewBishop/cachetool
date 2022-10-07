@@ -25,5 +25,5 @@
 
 * Tom's Cache Suite
 * https://github.com/Rune-Status/nshusa-rsam
-* https://github.com/scape-tools/scape-editor/blob/master/fs/src/main/java/scape/editor/fs/RSArchive.java
-* https://github.com/Displee/rs-cache-library/blob/master/src/main/kotlin/com/displee/cache/index/archive/Archive317.kt
+* https://github.com/scape-tools/scape-editor
+* https://github.com/Displee/rs-cache-library
