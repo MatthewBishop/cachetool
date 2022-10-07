@@ -4,7 +4,6 @@ import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
 
-import com.jagex.cache.util.BZip2Decompressor;
 import com.jagex.cache.util.Buffer;
 import com.jagex.cache.util.JagBZip2OutputStream;
 
@@ -68,10 +67,7 @@ public class Archive {
 		int compressedSize = buffer.readUTriByte();
 		if (compressedSize != decompressedSize) {
 			byte[] output = new byte[decompressedSize];
-			//byte[] input = new byte[compressedSize];
-			//System.arraycopy(data, 6, input, 0, compressedSize);
-			//unbzip2(input, output);
-			BZip2Decompressor.decompress(output, decompressedSize, data, compressedSize, 6);
+			decompress(output, decompressedSize, data, compressedSize, 6);
 			this.buffer = output;
 			buffer = new Buffer(this.buffer);
 			this.extracted = true;
@@ -238,15 +234,13 @@ public class Archive {
 	private byte[] getEntry(int index) {
 		byte[] dataBuffer = new byte[this.extractedSizes[index]];
 		if (!this.extracted) {
-			BZip2Decompressor.decompress(dataBuffer, this.extractedSizes[index], this.buffer, this.sizes[index], this.indices[index]);
-
-		//	unbzip2(this.buffer, dataBuffer);
+			decompress(dataBuffer, this.extractedSizes[index], this.buffer, this.sizes[index], this.indices[index]);
 		} else {
 			System.arraycopy(this.buffer, this.indices[index], dataBuffer, 0, this.extractedSizes[index]);
 		}
 		return dataBuffer;
 	}
-
+	
 	/**
 	 * Gets the unique identifier for the archive content.
 	 * @param name The name.
@@ -261,20 +255,25 @@ public class Archive {
 	}
 
 	/**
-	 * Unbzip2s the compressed array and places the result into the uncompressed array.
-	 * @param compressed The compressed data
+	 * Unbzip2s the compressed data and places the result into the uncompressed array.
 	 * @param uncompressed The uncompressed array.
+	 * @param decompressedSize The decompressed size.
+	 * @param data The compressed data
+	 * @param compressedSize
+	 * @param minLen
 	 */
-	private static void unbzip2(byte[] compressed, byte[] uncompressed) {
-		//Jagex uses headerless bzip2. Add 4 byte header.
-		byte[] newCompressed = new byte[compressed.length + 4];
-		newCompressed[0] = 'B';
-		newCompressed[1] = 'Z';
-		newCompressed[2] = 'h';
-		newCompressed[3] = '1';
-		System.arraycopy(compressed, 0, newCompressed, 4, compressed.length);
+	private void decompress(byte[] uncompressed, int decompressedSize, byte[] data, int compressedSize, int minLen) {
+		byte[] compressed = new byte[compressedSize + 4];
 
-		DataInputStream is = new DataInputStream(new BZip2InputStream(new ByteArrayInputStream(newCompressed), false));
+		//Jagex uses headerless bzip2. Add 4 byte header.
+		compressed[0] = 'B';
+		compressed[1] = 'Z';
+		compressed[2] = 'h';
+		compressed[3] = '1';
+		
+		System.arraycopy(data, minLen, compressed, 4, compressedSize);
+		
+		DataInputStream is = new DataInputStream(new BZip2InputStream(new ByteArrayInputStream(compressed), false));
 		try {
 			try {
 				is.readFully(uncompressed);

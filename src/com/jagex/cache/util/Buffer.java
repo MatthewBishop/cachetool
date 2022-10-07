@@ -59,4 +59,8 @@ public class Buffer {
 			payload[position++] = data[i];
 		}
 	}
+
+	public int readUByte() {
+		return payload[position++] & 0xff;
+	}
 }

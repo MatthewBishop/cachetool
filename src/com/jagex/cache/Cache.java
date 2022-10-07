@@ -16,7 +16,7 @@ import com.jagex.cache.util.Buffer;
  */
 public class Cache {
 		
-	private Index[] indices = new Index[5];
+	public Index[] indices = new Index[5];
 	private int[][] crcs = new int[4][];
 	private int[][] versions = new int[4][];
 	private CRC32 crc32 = new CRC32();
