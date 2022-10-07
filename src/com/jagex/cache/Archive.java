@@ -4,6 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
 
+import com.jagex.cache.util.BZip2Decompressor;
 import com.jagex.cache.util.Buffer;
 import com.jagex.cache.util.JagBZip2OutputStream;
 
@@ -67,9 +68,10 @@ public class Archive {
 		int compressedSize = buffer.readUTriByte();
 		if (compressedSize != decompressedSize) {
 			byte[] output = new byte[decompressedSize];
-			byte[] input = new byte[compressedSize];
-			System.arraycopy(data, 6, input, 0, compressedSize);
-			unbzip2(input, output);
+			//byte[] input = new byte[compressedSize];
+			//System.arraycopy(data, 6, input, 0, compressedSize);
+			//unbzip2(input, output);
+			BZip2Decompressor.decompress(output, decompressedSize, data, compressedSize, 6);
 			this.buffer = output;
 			buffer = new Buffer(this.buffer);
 			this.extracted = true;
@@ -236,7 +238,9 @@ public class Archive {
 	private byte[] getEntry(int index) {
 		byte[] dataBuffer = new byte[this.extractedSizes[index]];
 		if (!this.extracted) {
-			unbzip2(this.buffer, dataBuffer);
+			BZip2Decompressor.decompress(dataBuffer, this.extractedSizes[index], this.buffer, this.sizes[index], this.indices[index]);
+
+		//	unbzip2(this.buffer, dataBuffer);
 		} else {
 			System.arraycopy(this.buffer, this.indices[index], dataBuffer, 0, this.extractedSizes[index]);
 		}
