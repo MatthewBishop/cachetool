@@ -24,7 +24,7 @@ public class Cache {
 	/**
 	 * Loads a cache from a target directory.
 	 * @param directory The directory.
-	 * @throws FileNotFoundException Unable to find a cache in the target directory.
+	 * @throws FileNotFoundException Unable to access the directory.
 	 */
 	public Cache(String directory) throws FileNotFoundException {
 		RandomAccessFile cache = new RandomAccessFile(directory  + "main_file_cache.dat", "rw");
@@ -80,6 +80,43 @@ public class Cache {
 			}
 		}
 		System.out.println("Total missing: " + missing);
+	}
+	
+	/**
+	 * Does a clean rebuild of the cache.
+	 * @param directory The directory of the cleaned cache.
+	 * @throws FileNotFoundException Unable to access the directory.
+	 */
+	public void clean(String directory) throws FileNotFoundException {
+		RandomAccessFile cache = new RandomAccessFile(directory  + "main_file_cache.dat", "rw");
+		RandomAccessFile[] indexes = new RandomAccessFile[5];
+		for (int index = 0; index < 5; index++) {
+			indexes[index] = new RandomAccessFile(directory + "main_file_cache.idx" + index, "rw");
+		}
+
+		Index[] indices = new Index[5];
+		for (int index = 0; index < 5; index++) {
+			indices[index] = new Index(indexes[index], cache, index + 1, 0xffffff);
+		}
+		
+		for(int i = 1; i < 9; i++) {
+			byte[] orig = this.indices[0].decompress(i);
+			System.out.println(i);
+			indices[0].put(orig, i, orig.length);
+		}
+
+		for (int type = 0; type < 4; type++) {
+			int idx = type + 1;
+			for (int m = 0; m < this.crcs[type].length; m++) {
+				if (this.versions[type][m] == 0)
+					continue;
+				byte[] dat = this.indices[idx].decompress(m);
+				if (exists(dat)) {
+					indices[idx].put(dat, m, dat.length);
+				}
+			}
+		}
+			
 	}
 	
 	/**
