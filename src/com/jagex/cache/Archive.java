@@ -9,24 +9,58 @@ import com.jagex.cache.util.JagBZip2OutputStream;
 
 import org.itadaki.bzip2.BZip2InputStream;
 
+/**
+ * A container used in the cache, which stores sub-containers, called entries.
+ * <p>
+ * Archives may be compressed in whole, or have their individual entries compressed. Both types use Bzip2 for
+ * compression.
+ * 
+ * @author Advocatus, Major(naming, some documentation)
+ * 
+ */
 public class Archive {
 
-	private byte[] buffer;
-
+	/**
+	 * The amount of entries in this Archive.
+	 */
 	private int entries;
-	
-	private int[] identifiers;
 
-	private int[] extractedSizes;
-
-	private int[] sizes;
-
-	private int[] indices;
-
+	/**
+	 * Whether or not this Archive was compressed as a whole: if false, decompression will be performed on each of the
+	 * individual entries.
+	 */
 	private boolean extracted;
 
+	/**
+	 * The raw (i.e. decompressed) sizes of each of the entries in this Archive.
+	 */
+	private int[] extractedSizes;
+
+	/**
+	 * The identifiers (i.e. hashed names) of each of the entries in this Archive.
+	 */
+	private int[] identifiers;
+	private int[] indices;
+
+	/**
+	 * The buffer containing the decompressed data in this Archive.
+	 */
+	private byte[] buffer;
+
+	/**
+	 * The compressed sizes of each of the entries in this Archive.
+	 */
+	private int[] sizes;
+	
+	/**
+	 * An array of all the files within this archive.
+	 */
 	private byte[][] files;
 	
+	/**
+	 * Creates a new {@link Archive} from an array of data.
+	 * @param data The array of data.
+	 */
 	public Archive(byte[] data) {
 		Buffer buffer = new Buffer(data);
 		int decompressedSize = buffer.readUTriByte();
@@ -56,10 +90,45 @@ public class Archive {
 			this.sizes[file] = buffer.readUTriByte();
 			this.indices[file] = offset;
 			offset += this.sizes[file];
-			this.files[file] = getFileAt(file);
+			this.files[file] = getEntry(file);
 		}
 	}
 
+	/**
+	 * Gets an entry by name within the archive.
+	 * @param name The name.
+	 * @return The entry.
+	 */
+	public byte[] getEntry(String name) {
+		int identifier = getHash(name);
+		for (int file = 0; file < this.entries; file++) {
+			if (this.identifiers[file] == identifier)
+				return getEntry(file);
+		}
+		return null;
+	}
+
+	/**
+	 * Updates the entry data within the archive for a specific name.
+	 * @param name The name.
+	 * @param data The updated entry data.
+	 */
+	public void updateEntry(String name, byte[] data) {
+		int identifier = getHash(name);	
+		for (int file = 0; file < entries; file++) {
+			if (identifiers[file] == identifier) {
+				files[file] = data;
+				break;
+			}
+		}
+	}
+
+	/**
+	 * Recompiles the contents of the archive. This needs to be called after updating entry data.
+	 * @author Advocatus, derived from Tom's Cache Suite.
+	 * @return The recompiled archive. 
+	 * @throws IOException if there is an error compressing archive contents with bzip2.
+	 */
 	public byte[] recompile() throws IOException {
 		byte[] compressedWhole = compileUncompressed();
 		int compressedWholeDecompressedSize = compressedWhole.length;
@@ -84,7 +153,12 @@ public class Archive {
 		return finalBuf.payload;
 	}
 
-	private byte[] compileUncompressed() throws IOException {
+	/**
+	 * Gets the array of all archive contents.
+	 * @return The array of all contents.
+	 * @author Advocatus, derived from Tom's Cache Suite.
+	 */
+	private byte[] compileUncompressed() {
 		int fileBufSize = 0;
 		
 		for (int i = 0; i < this.entries; i++) {
@@ -116,6 +190,11 @@ public class Archive {
 		return finalBuffer.payload;
 	}
 
+	/**
+	 * Gets the array of all archive contents compressed.
+	 * @return The array of all contents.
+	 * @throws IOException if there is an error compressing archive contents with bzip2.
+	 */
 	private byte[] compileCompressed() throws IOException {
 		int fileBufSize = 0;
 		byte[][] compresseds = new byte[this.entries][];
@@ -149,7 +228,12 @@ public class Archive {
 		return finalBuffer.payload;
 	}
 
-	private byte[] getFileAt(int index) {
+	/**
+	 * Gets a entry data at a specific index.
+	 * @param index The index.
+	 * @return The entry data.
+	 */
+	private byte[] getEntry(int index) {
 		byte[] dataBuffer = new byte[this.extractedSizes[index]];
 		if (!this.extracted) {
 			unbzip2(this.buffer, dataBuffer);
@@ -159,15 +243,11 @@ public class Archive {
 		return dataBuffer;
 	}
 
-	public byte[] getEntry(String name) {
-		int identifier = getHash(name);
-		for (int file = 0; file < this.entries; file++) {
-			if (this.identifiers[file] == identifier)
-				return getFileAt(file);
-		}
-		return null;
-	}
-
+	/**
+	 * Gets the unique identifier for the archive content.
+	 * @param name The name.
+	 * @return The identifier.
+	 */
 	private static int getHash(String name) {
 		int identifier = 0;
 		name = name.toUpperCase();
@@ -176,17 +256,11 @@ public class Archive {
 		return identifier;
 	}
 
-	public void updateFile(String name, byte[] data) {
-		int identifier = getHash(name);	
-		for (int file = 0; file < entries; file++) {
-			if (identifiers[file] == identifier) {
-				files[file] = data;
-				break;
-			}
-		}
-	}
-
-	//Unbzip2s the compressed array and places the result into the uncompressed array.
+	/**
+	 * Unbzip2s the compressed array and places the result into the uncompressed array.
+	 * @param compressed The compressed data
+	 * @param uncompressed The uncompressed array.
+	 */
 	private static void unbzip2(byte[] compressed, byte[] uncompressed) {
 		//Jagex uses headerless bzip2. Add 4 byte header.
 		byte[] newCompressed = new byte[compressed.length + 4];

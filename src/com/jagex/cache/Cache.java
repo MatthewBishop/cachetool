@@ -1,11 +1,19 @@
 package com.jagex.cache;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.zip.CRC32;
 
 import com.jagex.cache.util.Buffer;
 
+/**
+ * A cache represents a collection of files used by Jagex in Runescape.
+ * <p>
+ * 
+ * @author Advocatus
+ *
+ */
 public class Cache {
 		
 	private Index[] indices = new Index[5];
@@ -13,7 +21,12 @@ public class Cache {
 	private int[][] versions = new int[4][];
 	private CRC32 crc32 = new CRC32();
 	
-	public Cache(String directory) throws Exception {
+	/**
+	 * Loads a cache from a target directory.
+	 * @param directory The directory.
+	 * @throws FileNotFoundException Unable to find a cache in the target directory.
+	 */
+	public Cache(String directory) throws FileNotFoundException {
 		RandomAccessFile cache = new RandomAccessFile(directory  + "main_file_cache.dat", "rw");
 		RandomAccessFile[] indexes = new RandomAccessFile[5];
 		for (int index = 0; index < 5; index++) {
@@ -49,6 +62,9 @@ public class Cache {
 		}
 	}
 
+	/**
+	 * Iterates through all files in the cache and prints out the missing files.
+	 */
 	public void check() {
 		int missing = 0;
 		for (int type = 0; type < 4; type++) {
@@ -66,6 +82,12 @@ public class Cache {
 		System.out.println("Total missing: " + missing);
 	}
 	
+	/**
+	 * Updates this cache with the contents of another. Only missing files are added. This also updates the internal crc and version information.
+	 * <p>
+	 * rebuild() must be called to save the changes.
+	 * @param source The cache that is the source of the additional files.
+	 */
 	public void update(Cache source) {
 		int added = 0;
 		for (int type = 0; type < 4; type++) {
@@ -90,10 +112,17 @@ public class Cache {
 		System.out.println("Total added: " + added);
 	}
 	
+	/**
+	 * Rebuilds the version list information for the Cache.
+	 */
 	public void rebuild() {
 		rebuild(false);
 	}
 	
+	/**
+	 * Rebuilds the version list information for the Cache.
+	 * @param full The type of rebuild. If true, the version and crc values will recalculated from the cache contents.
+	 */
 	public void rebuild(boolean full) {
 		byte[] orig = indices[0].decompress(5);
 
@@ -136,8 +165,8 @@ public class Cache {
 				}
 			}
 			
-			archive.updateFile(VERSION_NAMES[type], version_buffer.payload);
-			archive.updateFile(CRC_NAMES[type], crc_buffer.payload);
+			archive.updateEntry(VERSION_NAMES[type], version_buffer.payload);
+			archive.updateEntry(CRC_NAMES[type], crc_buffer.payload);
 		}
 		
 		try {
