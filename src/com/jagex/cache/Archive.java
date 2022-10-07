@@ -11,7 +11,7 @@ import org.itadaki.bzip2.BZip2InputStream;
 
 public class Archive {
 
-	byte[] buffer;
+	private byte[] buffer;
 
 	private int entries;
 	
@@ -23,7 +23,7 @@ public class Archive {
 
 	private int[] indices;
 
-	boolean extracted;
+	private boolean extracted;
 
 	private byte[][] files;
 	
@@ -149,75 +149,41 @@ public class Archive {
 		return finalBuffer.payload;
 	}
 
-	public byte[] getFileAt(int at) {
-		byte[] dataBuffer = new byte[this.extractedSizes[at]];
+	private byte[] getFileAt(int index) {
+		byte[] dataBuffer = new byte[this.extractedSizes[index]];
 		if (!this.extracted) {
 			unbzip2(this.buffer, dataBuffer);
 		} else {
-			System.arraycopy(this.buffer, this.indices[at], dataBuffer, 0, this.extractedSizes[at]);
+			System.arraycopy(this.buffer, this.indices[index], dataBuffer, 0, this.extractedSizes[index]);
 		}
 		return dataBuffer;
 	}
 
-	public byte[] getFile(int identifier) {
-		for (int k = 0; k < this.entries; k++) {
-			if (this.identifiers[k] == identifier)
-				return getFileAt(k);
+	public byte[] getEntry(String name) {
+		int identifier = getHash(name);
+		for (int file = 0; file < this.entries; file++) {
+			if (this.identifiers[file] == identifier)
+				return getFileAt(file);
 		}
 		return null;
 	}
 
-	public int getIdentifierAt(int at) {
-		return this.identifiers[at];
-	}
-
-	public int getDecompressedSize(int at) {
-		return this.extractedSizes[at];
-	}
-
-	public int getTotalFiles() {
-		return this.entries;
-	}
-
-	public byte[] getEntry(String identStr) {
+	private static int getHash(String name) {
 		int identifier = 0;
-		identStr = identStr.toUpperCase();
-		for (int j = 0; j < identStr.length(); j++)
-			identifier = identifier * 61 + identStr.charAt(j) - 32;
-		return getFile(identifier);
-	}
-
-	public static int getHash(String s) {
-		int identifier = 0;
-		s = s.toUpperCase();
-		for (int j = 0; j < s.length(); j++)
-			identifier = identifier * 61 + s.charAt(j) - 32;
+		name = name.toUpperCase();
+		for (int index = 0; index < name.length(); index++)
+			identifier = identifier * 61 + name.charAt(index) - 32;
 		return identifier;
 	}
 
-	public void renameFile(int index, int newName) {
-		this.identifiers[index] = newName;
-	}
-
-	public void updateFile(int index, byte[] data) {
-		files[index] = data;
-	}
-
-	public void updateFile(String identStr, byte[] data) {
-		files[indexOf(identStr)] = data;
-	}
-	
-	public int indexOf(String name) {
-		return indexOf(getHash(name));
-	}
-
-	public int indexOf(int hash) {
-		for (int i = 0; i < entries; i++) {
-			if (identifiers[i] == hash) {
-				return i;
+	public void updateFile(String name, byte[] data) {
+		int identifier = getHash(name);	
+		for (int file = 0; file < entries; file++) {
+			if (identifiers[file] == identifier) {
+				files[file] = data;
+				break;
 			}
 		}
-		return -1;
 	}
 
 	//Unbzip2s the compressed array and places the result into the uncompressed array.
