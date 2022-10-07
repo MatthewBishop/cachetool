@@ -21,9 +21,7 @@ public class IdentityKit {
     public static void main(String[] args) {
         try {
     		Cache cache = new Cache("./dest/");
-    		byte[] orig = cache.indices[0].decompress(2);    	
-    		
-    		Archive configs = new Archive(orig);
+    		Archive configs = new Archive(cache.getFile(0, 2));
     		
     		init(configs);
 

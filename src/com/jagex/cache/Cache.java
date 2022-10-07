@@ -16,7 +16,7 @@ import com.jagex.cache.util.Buffer;
  */
 public class Cache {
 		
-	public Index[] indices = new Index[5];
+	private Index[] indices = new Index[5];
 	private int[][] crcs = new int[4][];
 	private int[][] versions = new int[4][];
 	private CRC32 crc32 = new CRC32();
@@ -117,6 +117,10 @@ public class Cache {
 			}
 		}
 			
+	}
+	
+	public byte[] getFile(int index, int file) {
+		return this.indices[index].decompress(file);
 	}
 	
 	/**
