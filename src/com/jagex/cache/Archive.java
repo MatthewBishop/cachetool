@@ -1,10 +1,13 @@
 package com.jagex.cache;
 
+import java.io.ByteArrayInputStream;
+import java.io.DataInputStream;
 import java.io.IOException;
 
-import com.jagex.cache.util.BZip2Decompressor;
 import com.jagex.cache.util.Buffer;
 import com.jagex.cache.util.JagBZip2OutputStream;
+
+import org.itadaki.bzip2.BZip2InputStream;
 
 public class Archive {
 
@@ -30,9 +33,9 @@ public class Archive {
 		int compressedSize = buffer.readUTriByte();
 		if (compressedSize != decompressedSize) {
 			byte[] output = new byte[decompressedSize];
-			BZip2Decompressor.decompress(output, decompressedSize, data, compressedSize, 6);
-			// TODO unbzip2(data, output); WIP switching bzip decompressor
-			
+			byte[] input = new byte[compressedSize];
+			System.arraycopy(data, 6, input, 0, compressedSize);
+			unbzip2(input, output);
 			this.buffer = output;
 			buffer = new Buffer(this.buffer);
 			this.extracted = true;
@@ -149,8 +152,7 @@ public class Archive {
 	public byte[] getFileAt(int at) {
 		byte[] dataBuffer = new byte[this.extractedSizes[at]];
 		if (!this.extracted) {
-			BZip2Decompressor.decompress(dataBuffer, this.extractedSizes[at], this.buffer, this.sizes[at], this.indices[at]);
-			// TODO unbzip2(this.buffer, dataBuffer); WIP switching bzip decompressor
+			unbzip2(this.buffer, dataBuffer);
 		} else {
 			System.arraycopy(this.buffer, this.indices[at], dataBuffer, 0, this.extractedSizes[at]);
 		}
@@ -218,4 +220,25 @@ public class Archive {
 		return -1;
 	}
 
+	//Unbzip2s the compressed array and places the result into the uncompressed array.
+	private static void unbzip2(byte[] compressed, byte[] uncompressed) {
+		//Jagex uses headerless bzip2. Add 4 byte header.
+		byte[] newCompressed = new byte[compressed.length + 4];
+		newCompressed[0] = 'B';
+		newCompressed[1] = 'Z';
+		newCompressed[2] = 'h';
+		newCompressed[3] = '1';
+		System.arraycopy(compressed, 0, newCompressed, 4, compressed.length);
+
+		DataInputStream is = new DataInputStream(new BZip2InputStream(new ByteArrayInputStream(newCompressed), false));
+		try {
+			try {
+				is.readFully(uncompressed);
+			} finally {
+				is.close();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 }
