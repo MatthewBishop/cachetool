@@ -57,7 +57,7 @@ public class Cache {
 			this.crcs[type] = new int[count];
 
 			for (int file = 0; file < count; file++) {
-				this.crcs[type][file] = buffer.readUInt();
+				this.crcs[type][file] = buffer.readInt();
 			}
 		}
 	}

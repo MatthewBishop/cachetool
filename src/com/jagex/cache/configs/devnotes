@@ -1,0 +1,1663 @@
+	/*
+Missing: Khazard armour, id 75, mdl 339
+Missing: Plague jacket, id 284, mdl 459
+Missing: Plague jacket, id 284, mdl 331
+Missing: Plague trousers, id 285, mdl 436
+Missing: Glarial's amulet, id 295, mdl 447
+Missing: Gnome amulet, id 589, mdl 447
+Missing: Eye patch, id 1025, mdl 410
+Missing: Gas mask, id 1506, mdl 389
+Missing: Cat training medal, id 1575, mdl 453
+Missing: Ranger boots, id 2577, mdl 4930
+Missing: Robin hood hat, id 2581, mdl 3382
+Missing: Highwayman mask, id 2631, mdl 416
+Missing: Blue beret, id 2633, mdl 373
+Missing: Black beret, id 2635, mdl 373
+Missing: White beret, id 2637, mdl 373
+Missing: Tan cavalier, id 2639, mdl 362
+Missing: Dark cavalier, id 2641, mdl 362
+Missing: Black cavalier, id 2643, mdl 362
+Missing: Red headband, id 2645, mdl 376
+Missing: Black headband, id 2647, mdl 376
+Missing: Brown headband, id 2649, mdl 376
+Missing: Pirate's hat, id 2651, mdl 367
+Missing: Chompy bird hat, id 2978, mdl 3617
+Missing: Chompy bird hat, id 2979, mdl 3617
+Missing: Chompy bird hat, id 2980, mdl 3617
+Missing: Chompy bird hat, id 2981, mdl 3617
+Missing: Chompy bird hat, id 2982, mdl 3617
+Missing: Chompy bird hat, id 2983, mdl 3617
+Missing: Chompy bird hat, id 2984, mdl 3618
+Missing: Chompy bird hat, id 2985, mdl 3618
+Missing: Chompy bird hat, id 2986, mdl 3618
+Missing: Chompy bird hat, id 2987, mdl 3618
+Missing: Chompy bird hat, id 2988, mdl 3618
+Missing: Chompy bird hat, id 2989, mdl 3618
+Missing: Chompy bird hat, id 2990, mdl 3619
+Missing: Chompy bird hat, id 2991, mdl 3619
+Missing: Chompy bird hat, id 2992, mdl 3619
+Missing: Chompy bird hat, id 2993, mdl 3619
+Missing: Chompy bird hat, id 2994, mdl 3619
+Missing: Chompy bird hat, id 2995, mdl 3619
+Missing: Pirate's hook, id 2997, mdl 3661
+Missing: Climbing boots, id 3105, mdl 3708
+Missing: Spiked boots, id 3107, mdl 3709
+Missing: Dragon chainbody, id 3140, mdl 3821
+Missing: Dragon chainbody, id 3140, mdl 337
+Missing: Crystal pendant, id 3208, mdl 447
+Missing: Myre snelm, id 3327, mdl 4101
+Missing: Blood'n'tar snelm, id 3329, mdl 4101
+Missing: Ochre snelm, id 3331, mdl 4101
+Missing: Bruise blue snelm, id 3333, mdl 4101
+Missing: Broken bark snelm, id 3335, mdl 4101
+Missing: Myre snelm, id 3337, mdl 4102
+Missing: Blood'n'tar snelm, id 3339, mdl 4102
+Missing: Ochre snelm, id 3341, mdl 4102
+Missing: Bruise blue snelm, id 3343, mdl 4102
+Missing: Splitbark body, id 3387, mdl 4123
+Missing: Splitbark body, id 3387, mdl 4118
+Missing: Splitbark legs, id 3389, mdl 4122
+Missing: Splitbark gauntlets, id 3391, mdl 4119
+Missing: Splitbark greaves, id 3393, mdl 4120
+Missing: Fremennik helm, id 3748, mdl 4228
+Missing: Archer helm, id 3749, mdl 4228
+Missing: Berserker helm, id 3751, mdl 4228
+Missing: Warrior helm, id 3753, mdl 4228
+Missing: Farseer helm, id 3755, mdl 4231
+Missing: Farseer helm, id 3755, mdl 4228
+Missing: M'speak amulet, id 4021, mdl 4668
+Missing: Hooded cloak, id 4041, mdl 4849
+Missing: Hooded cloak, id 4042, mdl 4849
+Missing: Salve amulet, id 4081, mdl 4933
+Missing: Dragon platelegs, id 4087, mdl 5025
+Missing: Mystic hat, id 4089, mdl 5033
+Missing: Mystic robe top, id 4091, mdl 5029
+Missing: Mystic robe top, id 4091, mdl 5035
+Missing: Mystic robe bottom, id 4093, mdl 5034
+Missing: Mystic gloves, id 4095, mdl 5030
+Missing: Mystic boots, id 4097, mdl 5032
+Missing: Mystic hat, id 4099, mdl 5033
+Missing: Mystic robe top, id 4101, mdl 5029
+Missing: Mystic robe top, id 4101, mdl 5035
+Missing: Mystic robe bottom, id 4103, mdl 5034
+Missing: Mystic gloves, id 4105, mdl 5030
+Missing: Mystic boots, id 4107, mdl 5032
+Missing: Mystic hat, id 4109, mdl 5033
+Missing: Mystic robe top, id 4111, mdl 5029
+Missing: Mystic robe top, id 4111, mdl 5035
+Missing: Mystic robe bottom, id 4113, mdl 5034
+Missing: Mystic gloves, id 4115, mdl 5030
+Missing: Mystic boots, id 4117, mdl 5032
+Missing: Bronze boots, id 4119, mdl 5031
+Missing: Iron boots, id 4121, mdl 5031
+Missing: Steel boots, id 4123, mdl 5031
+Missing: Black boots, id 4125, mdl 5031
+Missing: Mithril boots, id 4127, mdl 5031
+Missing: Adamant boots, id 4129, mdl 5031
+Missing: Rune boots, id 4131, mdl 5031
+Missing: Facemask, id 4164, mdl 5109
+Missing: Earmuffs, id 4166, mdl 5108
+Missing: Nose peg, id 4168, mdl 5107
+Missing: Ham hood, id 4302, mdl 5435
+Missing: Bearhead, id 4502, mdl 5676
+Missing: Castlewars hood, id 4513, mdl 398
+Missing: Castlewars hood, id 4515, mdl 398
+Missing: Spiny helmet, id 4551, mdl 5796
+Missing: Gold helmet, id 4567, mdl 5819
+Missing: Dragon plateskirt, id 4585, mdl 6030
+Missing: Desert disguise, id 4611, mdl 364
+Missing: Desert disguise, id 4611, mdl 6096
+Missing: Ahrims hood, id 4708, mdl 5435
+Missing: Ahrims robetop, id 4712, mdl 6697
+Missing: Ahrims robeskirt, id 4714, mdl 6691
+Missing: Dharoks helm, id 4716, mdl 6686
+Missing: Dharoks platebody, id 4720, mdl 6698
+Missing: Dharoks platebody, id 4720, mdl 6681
+Missing: Dharoks platelegs, id 4722, mdl 6692
+Missing: Guthans helm, id 4724, mdl 6687
+Missing: Guthans platebody, id 4728, mdl 6699
+Missing: Guthans platebody, id 4728, mdl 6682
+Missing: Guthans chainskirt, id 4730, mdl 6695
+Missing: Karils coif, id 4732, mdl 6688
+Missing: Karils leathertop, id 4736, mdl 6700
+Missing: Karils leathertop, id 4736, mdl 6683
+Missing: Karils leatherskirt, id 4738, mdl 6694
+Missing: Torags helm, id 4745, mdl 6689
+Missing: Torags platebody, id 4749, mdl 6701
+Missing: Torags platebody, id 4749, mdl 6684
+Missing: Torags platelegs, id 4751, mdl 6693
+Missing: Veracs helm, id 4753, mdl 6690
+Missing: Veracs brassard, id 4757, mdl 478
+Missing: Veracs brassard, id 4757, mdl 6685
+Missing: Veracs plateskirt, id 4759, mdl 6696
+Missing: Ahrims hood 100, id 4856, mdl 5435
+Missing: Ahrims hood 75, id 4857, mdl 5435
+Missing: Ahrims hood 50, id 4858, mdl 5435
+Missing: Ahrims hood 25, id 4859, mdl 5435
+Missing: Ahrims hood 0, id 4860, mdl 5435
+Missing: Ahrims top 100, id 4868, mdl 6697
+Missing: Ahrims top 75, id 4869, mdl 6697
+Missing: Ahrims top 50, id 4870, mdl 6697
+Missing: Ahrims top 25, id 4871, mdl 6697
+Missing: Ahrims top 0, id 4872, mdl 6697
+Missing: Ahrims skirt 100, id 4874, mdl 6691
+Missing: Ahrims skirt 75, id 4875, mdl 6691
+Missing: Ahrims skirt 50, id 4876, mdl 6691
+Missing: Ahrims skirt 25, id 4877, mdl 6691
+Missing: Ahrims skirt 0, id 4878, mdl 6691
+Missing: Dharoks helm 100, id 4880, mdl 6686
+Missing: Dharoks helm 75, id 4881, mdl 6686
+Missing: Dharoks helm 50, id 4882, mdl 6686
+Missing: Dharoks helm 25, id 4883, mdl 6686
+Missing: Dharoks helm 0, id 4884, mdl 6686
+Missing: Dharoks body 100, id 4892, mdl 6698
+Missing: Dharoks body 100, id 4892, mdl 6681
+Missing: Dharoks body 75, id 4893, mdl 6698
+Missing: Dharoks body 75, id 4893, mdl 6681
+Missing: Dharoks body 50, id 4894, mdl 6698
+Missing: Dharoks body 50, id 4894, mdl 6681
+Missing: Dharoks body 25, id 4895, mdl 6698
+Missing: Dharoks body 25, id 4895, mdl 6681
+Missing: Dharoks body 0, id 4896, mdl 6698
+Missing: Dharoks body 0, id 4896, mdl 6681
+Missing: Dharoks legs 100, id 4898, mdl 6692
+Missing: Dharoks legs 75, id 4899, mdl 6692
+Missing: Dharoks legs 50, id 4900, mdl 6692
+Missing: Dharoks legs 25, id 4901, mdl 6692
+Missing: Dharoks legs 0, id 4902, mdl 6692
+Missing: Guthans helm 100, id 4904, mdl 6687
+Missing: Guthans helm 75, id 4905, mdl 6687
+Missing: Guthans helm 50, id 4906, mdl 6687
+Missing: Guthans helm 25, id 4907, mdl 6687
+Missing: Guthans helm 0, id 4908, mdl 6687
+Missing: Guthans body 100, id 4916, mdl 6699
+Missing: Guthans body 100, id 4916, mdl 6682
+Missing: Guthans body 75, id 4917, mdl 6699
+Missing: Guthans body 75, id 4917, mdl 6682
+Missing: Guthans body 50, id 4918, mdl 6699
+Missing: Guthans body 50, id 4918, mdl 6682
+Missing: Guthans body 25, id 4919, mdl 6699
+Missing: Guthans body 25, id 4919, mdl 6682
+Missing: Guthans body 0, id 4920, mdl 6699
+Missing: Guthans body 0, id 4920, mdl 6682
+Missing: Guthans skirt 100, id 4922, mdl 6695
+Missing: Guthans skirt 75, id 4923, mdl 6695
+Missing: Guthans skirt 50, id 4924, mdl 6695
+Missing: Guthans skirt 25, id 4925, mdl 6695
+Missing: Guthans skirt 0, id 4926, mdl 6695
+Missing: Karils coif 100, id 4928, mdl 6688
+Missing: Karils coif 75, id 4929, mdl 6688
+Missing: Karils coif 50, id 4930, mdl 6688
+Missing: Karils coif 25, id 4931, mdl 6688
+Missing: Karils coif 0, id 4932, mdl 6688
+Missing: Karils top 100, id 4940, mdl 6700
+Missing: Karils top 100, id 4940, mdl 6683
+Missing: Karils top 75, id 4941, mdl 6700
+Missing: Karils top 75, id 4941, mdl 6683
+Missing: Karils top 50, id 4942, mdl 6700
+Missing: Karils top 50, id 4942, mdl 6683
+Missing: Karils top 25, id 4943, mdl 6700
+Missing: Karils top 25, id 4943, mdl 6683
+Missing: Karils top 0, id 4944, mdl 6700
+Missing: Karils top 0, id 4944, mdl 6683
+Missing: Karils skirt 100, id 4946, mdl 6694
+Missing: Karils skirt 75, id 4947, mdl 6694
+Missing: Karils skirt 50, id 4948, mdl 6694
+Missing: Karils skirt 25, id 4949, mdl 6694
+Missing: Karils skirt 0, id 4950, mdl 6694
+Missing: Torags helm 100, id 4952, mdl 6689
+Missing: Torags helm 75, id 4953, mdl 6689
+Missing: Torags helm 50, id 4954, mdl 6689
+Missing: Torags helm 25, id 4955, mdl 6689
+Missing: Torags helm 0, id 4956, mdl 6689
+Missing: Torags body 100, id 4964, mdl 6701
+Missing: Torags body 100, id 4964, mdl 6684
+Missing: Torags body 75, id 4965, mdl 6701
+Missing: Torags body 75, id 4965, mdl 6684
+Missing: Torags body 50, id 4966, mdl 6701
+Missing: Torags body 50, id 4966, mdl 6684
+Missing: Torags body 25, id 4967, mdl 6701
+Missing: Torags body 25, id 4967, mdl 6684
+Missing: Torags body 0, id 4968, mdl 6701
+Missing: Torags body 0, id 4968, mdl 6684
+Missing: Torags legs 100, id 4970, mdl 6693
+Missing: Torags legs 75, id 4971, mdl 6693
+Missing: Torags legs 50, id 4972, mdl 6693
+Missing: Torags legs 25, id 4973, mdl 6693
+Missing: Torags legs 0, id 4974, mdl 6693
+Missing: Veracs helm 100, id 4976, mdl 6690
+Missing: Veracs helm 75, id 4977, mdl 6690
+Missing: Veracs helm 50, id 4978, mdl 6690
+Missing: Veracs helm 25, id 4979, mdl 6690
+Missing: Veracs helm 0, id 4980, mdl 6690
+Missing: Veracs top 100, id 4988, mdl 478
+Missing: Veracs top 100, id 4988, mdl 6685
+Missing: Veracs top 75, id 4989, mdl 478
+Missing: Veracs top 75, id 4989, mdl 6685
+Missing: Veracs top 50, id 4990, mdl 478
+Missing: Veracs top 50, id 4990, mdl 6685
+Missing: Veracs top 25, id 4991, mdl 478
+Missing: Veracs top 25, id 4991, mdl 6685
+Missing: Veracs top 0, id 4992, mdl 478
+Missing: Veracs top 0, id 4992, mdl 6685
+Missing: Veracs skirt 100, id 4994, mdl 6696
+Missing: Veracs skirt 75, id 4995, mdl 6696
+Missing: Veracs skirt 50, id 4996, mdl 6696
+Missing: Veracs skirt 25, id 4997, mdl 6696
+Missing: Veracs skirt 0, id 4998, mdl 6696
+Missing: Mining helmet, id 5013, mdl 6960
+Missing: Mining helmet, id 5014, mdl 6961
+Missing: Woven top, id 5024, mdl 7009
+Missing: Woven top, id 5024, mdl 7005
+Missing: Woven top, id 5026, mdl 7009
+Missing: Woven top, id 5026, mdl 7005
+Missing: Woven top, id 5028, mdl 7009
+Missing: Woven top, id 5028, mdl 7005
+Missing: Shirt, id 5030, mdl 7010
+Missing: Shirt, id 5030, mdl 7005
+Missing: Shirt, id 5032, mdl 7010
+Missing: Shirt, id 5032, mdl 7005
+Missing: Shirt, id 5034, mdl 7010
+Missing: Shirt, id 5034, mdl 7005
+Missing: Trousers, id 5036, mdl 7008
+Missing: Trousers, id 5038, mdl 7008
+Missing: Trousers, id 5040, mdl 7008
+Missing: Shorts, id 5042, mdl 7006
+Missing: Shorts, id 5044, mdl 7006
+Missing: Shorts, id 5046, mdl 7006
+Missing: Skirt, id 5048, mdl 7007
+Missing: Skirt, id 5050, mdl 7007
+Missing: Skirt, id 5052, mdl 7007
+Missing: Gardening boots, id 5345, mdl 7366
+Missing: Binding necklace, id 5521, mdl 6852
+	 */
+	 
+	 
+	 Bajinga: Excalibur, id 35, mdl 501
+Bajinga: Khazard helmet, id 74, mdl 395
+Bajinga: Khazard helmet, id 74, mdl 117
+Bajinga: Khazard armour, id 75, mdl 468
+Bajinga: Khazard armour, id 75, mdl 339
+Bajinga: Pendant of lucien, id 86, mdl 446
+Bajinga: Armadyl pendant, id 87, mdl 446
+Bajinga: Boots of lightness, id 88, mdl 361
+Bajinga: Boots of lightness, id 89, mdl 361
+Bajinga: Vial, id 229, mdl 561
+Bajinga: Cattleprod, id 278, mdl 537
+Bajinga: Plague jacket, id 284, mdl 459
+Bajinga: Plague jacket, id 284, mdl 331
+Bajinga: Plague trousers, id 285, mdl 436
+Bajinga: Glarial's amulet, id 295, mdl 447
+Bajinga: Lobster pot, id 301, mdl 531
+Bajinga: Small fishing net, id 303, mdl 551
+Bajinga: Big fishing net, id 305, mdl 489
+Bajinga: Fishing rod, id 307, mdl 562
+Bajinga: Fly fishing rod, id 309, mdl 562
+Bajinga: Harpoon, id 311, mdl 503
+Bajinga: Lathas' amulet, id 421, mdl 446
+Bajinga: Priest gown, id 426, mdl 456
+Bajinga: Priest gown, id 426, mdl 348
+Bajinga: Priest gown, id 428, mdl 428
+Bajinga: Doctors' gown, id 430, mdl 456
+Bajinga: Doctors' gown, id 430, mdl 332
+Bajinga: Pickaxe handle, id 466, mdl 558
+Bajinga: Broken pickaxe, id 468, mdl 530
+Bajinga: Broken pickaxe, id 470, mdl 530
+Bajinga: Broken pickaxe, id 472, mdl 530
+Bajinga: Broken pickaxe, id 474, mdl 530
+Bajinga: Broken pickaxe, id 476, mdl 530
+Bajinga: Broken pickaxe, id 478, mdl 530
+Bajinga: Axe handle, id 492, mdl 557
+Bajinga: Broken axe, id 494, mdl 487
+Bajinga: Broken axe, id 496, mdl 487
+Bajinga: Broken axe, id 498, mdl 487
+Bajinga: Broken axe, id 500, mdl 487
+Bajinga: Broken axe, id 502, mdl 487
+Bajinga: Broken axe, id 504, mdl 487
+Bajinga: Broken axe, id 506, mdl 487
+Bajinga: Druid's robe, id 538, mdl 428
+Bajinga: Druid's robe, id 540, mdl 348
+Bajinga: Druid's robe, id 540, mdl 456
+Bajinga: Monk's robe, id 542, mdl 428
+Bajinga: Monk's robe, id 544, mdl 348
+Bajinga: Monk's robe, id 544, mdl 456
+Bajinga: Shade robe, id 546, mdl 348
+Bajinga: Shade robe, id 546, mdl 456
+Bajinga: Shade robe, id 548, mdl 428
+Bajinga: Ghostspeak amulet, id 552, mdl 444
+Bajinga: Wizard robe, id 577, mdl 348
+Bajinga: Wizard robe, id 577, mdl 456
+Bajinga: Wizard hat, id 579, mdl 377
+Bajinga: Wizard hat, id 579, mdl 102
+Bajinga: Black robe, id 581, mdl 348
+Bajinga: Black robe, id 581, mdl 456
+Bajinga: Bailing bucket, id 583, mdl 543
+Bajinga: Bailing bucket, id 585, mdl 543
+Bajinga: Gnome amulet, id 589, mdl 447
+Bajinga: Tinderbox, id 590, mdl 488
+Bajinga: Beads of the dead, id 616, mdl 449
+Bajinga: Boots, id 626, mdl 361
+Bajinga: Boots, id 628, mdl 361
+Bajinga: Boots, id 630, mdl 361
+Bajinga: Boots, id 632, mdl 361
+Bajinga: Boots, id 634, mdl 361
+Bajinga: Robe top, id 636, mdl 348
+Bajinga: Robe top, id 636, mdl 456
+Bajinga: Robe top, id 638, mdl 348
+Bajinga: Robe top, id 638, mdl 456
+Bajinga: Robe top, id 640, mdl 348
+Bajinga: Robe top, id 640, mdl 456
+Bajinga: Robe top, id 642, mdl 348
+Bajinga: Robe top, id 642, mdl 456
+Bajinga: Robe top, id 644, mdl 348
+Bajinga: Robe top, id 644, mdl 456
+Bajinga: Robe bottoms, id 646, mdl 428
+Bajinga: Robe bottoms, id 648, mdl 428
+Bajinga: Robe bottoms, id 650, mdl 428
+Bajinga: Robe bottoms, id 652, mdl 428
+Bajinga: Robe bottoms, id 654, mdl 428
+Bajinga: Hat, id 656, mdl 377
+Bajinga: Hat, id 656, mdl 102
+Bajinga: Hat, id 658, mdl 377
+Bajinga: Hat, id 658, mdl 102
+Bajinga: Hat, id 660, mdl 377
+Bajinga: Hat, id 660, mdl 102
+Bajinga: Hat, id 662, mdl 377
+Bajinga: Hat, id 662, mdl 102
+Bajinga: Hat, id 664, mdl 377
+Bajinga: Hat, id 664, mdl 102
+Bajinga: Blurite sword, id 667, mdl 522
+Bajinga: Scrawled note, id 717, mdl 532
+Bajinga: A scribbled note, id 718, mdl 532
+Bajinga: Scrumpled note, id 719, mdl 532
+Bajinga: Hollow reed, id 727, mdl 515
+Bajinga: Enchanted vial, id 731, mdl 561
+Bajinga: Holy water, id 732, mdl 552
+Bajinga: Blue hat, id 740, mdl 377
+Bajinga: Blue hat, id 740, mdl 102
+Bajinga: Dark dagger, id 746, mdl 524
+Bajinga: Glowing dagger, id 747, mdl 5116
+Bajinga: Gnomeball, id 751, mdl 528
+Bajinga: Phoenix crossbow, id 767, mdl 508
+Bajinga: Dramen staff, id 772, mdl 534
+Bajinga: 'perfect' necklace, id 774, mdl 445
+Bajinga: Cooking gauntlets, id 775, mdl 356
+Bajinga: Goldsmith gauntlet, id 776, mdl 356
+Bajinga: Chaos gauntlets, id 777, mdl 356
+Bajinga: Steel gauntlets, id 778, mdl 356
+Bajinga: Exploding vial, id 796, mdl 538
+Bajinga: Herb bowl, id 797, mdl 506
+Bajinga: Grinder, id 798, mdl 529
+Bajinga: Bronze thrownaxe, id 800, mdl 545
+Bajinga: Iron thrownaxe, id 801, mdl 545
+Bajinga: Steel thrownaxe, id 802, mdl 545
+Bajinga: Mithril thrownaxe, id 803, mdl 545
+Bajinga: Adamnt thrownaxe, id 804, mdl 545
+Bajinga: Rune thrownaxe, id 805, mdl 545
+Bajinga: Bronze dart, id 806, mdl 492
+Bajinga: Iron dart, id 807, mdl 492
+Bajinga: Steel dart, id 808, mdl 492
+Bajinga: Mithril dart, id 809, mdl 492
+Bajinga: Adamant dart, id 810, mdl 492
+Bajinga: Rune dart, id 811, mdl 492
+Bajinga: Bronze dart(p), id 812, mdl 500
+Bajinga: Iron dart(p), id 813, mdl 500
+Bajinga: Steel dart(p), id 814, mdl 500
+Bajinga: Mithril dart(p), id 815, mdl 500
+Bajinga: Adamant dart(p), id 816, mdl 500
+Bajinga: Rune dart(p), id 817, mdl 500
+Bajinga: Poisoned dart(p), id 818, mdl 500
+Bajinga: Bronze javelin, id 825, mdl 547
+Bajinga: Iron javelin, id 826, mdl 547
+Bajinga: Steel javelin, id 827, mdl 547
+Bajinga: Mithril javelin, id 828, mdl 547
+Bajinga: Adamant javelin, id 829, mdl 547
+Bajinga: Rune javelin, id 830, mdl 547
+Bajinga: Bronze javelin(p), id 831, mdl 547
+Bajinga: Iron javelin(p), id 832, mdl 547
+Bajinga: Steel javelin(p), id 833, mdl 547
+Bajinga: Mithril javelin(p), id 834, mdl 547
+Bajinga: Adamant javelin(p), id 835, mdl 547
+Bajinga: Rune javelin(p), id 836, mdl 547
+Bajinga: Crossbow, id 837, mdl 508
+Bajinga: Longbow, id 839, mdl 563
+Bajinga: Shortbow, id 841, mdl 512
+Bajinga: Oak shortbow, id 843, mdl 512
+Bajinga: Oak longbow, id 845, mdl 563
+Bajinga: Willow longbow, id 847, mdl 563
+Bajinga: Willow shortbow, id 849, mdl 512
+Bajinga: Maple longbow, id 851, mdl 563
+Bajinga: Maple shortbow, id 853, mdl 512
+Bajinga: Yew longbow, id 855, mdl 563
+Bajinga: Yew shortbow, id 857, mdl 512
+Bajinga: Magic longbow, id 859, mdl 563
+Bajinga: Magic shortbow, id 861, mdl 512
+Bajinga: Iron knife, id 863, mdl 548
+Bajinga: Bronze knife, id 864, mdl 548
+Bajinga: Steel knife, id 865, mdl 548
+Bajinga: Mithril knife, id 866, mdl 548
+Bajinga: Adamant knife, id 867, mdl 548
+Bajinga: Rune knife, id 868, mdl 548
+Bajinga: Black knife, id 869, mdl 548
+Bajinga: Bronze knife(p), id 870, mdl 548
+Bajinga: Iron knife(p), id 871, mdl 548
+Bajinga: Steel knife(p), id 872, mdl 548
+Bajinga: Mithril knife(p), id 873, mdl 548
+Bajinga: Black knife(p), id 874, mdl 548
+Bajinga: Adamant knife(p), id 875, mdl 548
+Bajinga: Rune knife(p), id 876, mdl 548
+Bajinga: Throwing rope, id 945, mdl 549
+Bajinga: Knife, id 946, mdl 4045
+Bajinga: Spade, id 952, mdl 496
+Bajinga: Papyrus, id 970, mdl 532
+Bajinga: Papyrus, id 972, mdl 532
+Bajinga: Charcoal, id 973, mdl 494
+Bajinga: Machete, id 975, mdl 566
+Bajinga: White apron, id 1005, mdl 467
+Bajinga: Cape, id 1007, mdl 481
+Bajinga: Brass necklace, id 1009, mdl 445
+Bajinga: Blue skirt, id 1011, mdl 428
+Bajinga: Pink skirt, id 1013, mdl 428
+Bajinga: Black skirt, id 1015, mdl 428
+Bajinga: Wizard's hat, id 1017, mdl 377
+Bajinga: Wizard's hat, id 1017, mdl 102
+Bajinga: Cape, id 1019, mdl 481
+Bajinga: Cape, id 1021, mdl 481
+Bajinga: Cape, id 1023, mdl 481
+Bajinga: Eye patch, id 1025, mdl 410
+Bajinga: Eye patch, id 1025, mdl 126
+Bajinga: Cape, id 1027, mdl 481
+Bajinga: Cape, id 1029, mdl 481
+Bajinga: Cape, id 1031, mdl 481
+Bajinga: Robe of zamorak, id 1033, mdl 428
+Bajinga: Robe of zamorak, id 1035, mdl 348
+Bajinga: Robe of zamorak, id 1035, mdl 456
+Bajinga: Bunny ears, id 1037, mdl 3353
+Bajinga: Bunny ears, id 1037, mdl 91
+Bajinga: Red partyhat, id 1038, mdl 363
+Bajinga: Red partyhat, id 1038, mdl 87
+Bajinga: Yellow partyhat, id 1040, mdl 363
+Bajinga: Yellow partyhat, id 1040, mdl 87
+Bajinga: Blue partyhat, id 1042, mdl 363
+Bajinga: Blue partyhat, id 1042, mdl 87
+Bajinga: Green partyhat, id 1044, mdl 363
+Bajinga: Green partyhat, id 1044, mdl 87
+Bajinga: Purple partyhat, id 1046, mdl 363
+Bajinga: Purple partyhat, id 1046, mdl 87
+Bajinga: White partyhat, id 1048, mdl 363
+Bajinga: White partyhat, id 1048, mdl 87
+Bajinga: Santa hat, id 1050, mdl 366
+Bajinga: Santa hat, id 1050, mdl 127
+Bajinga: Cape of legends, id 1052, mdl 3194
+Bajinga: Green h'ween mask, id 1053, mdl 3192
+Bajinga: Green h'ween mask, id 1053, mdl 3187
+Bajinga: Blue h'ween mask, id 1055, mdl 3192
+Bajinga: Blue h'ween mask, id 1055, mdl 3187
+Bajinga: Red h'ween mask, id 1057, mdl 3192
+Bajinga: Red h'ween mask, id 1057, mdl 3187
+Bajinga: Leather gloves, id 1059, mdl 356
+Bajinga: Leather boots, id 1061, mdl 361
+Bajinga: Leather vambraces, id 1063, mdl 354
+Bajinga: Dragon vambraces, id 1065, mdl 355
+Bajinga: Iron platelegs, id 1067, mdl 432
+Bajinga: Steel platelegs, id 1069, mdl 432
+Bajinga: Mithril platelegs, id 1071, mdl 432
+Bajinga: Adamant platelegs, id 1073, mdl 432
+Bajinga: Bronze platelegs, id 1075, mdl 432
+Bajinga: Black platelegs, id 1077, mdl 432
+Bajinga: Rune platelegs, id 1079, mdl 432
+Bajinga: Iron plateskirt, id 1081, mdl 430
+Bajinga: Steel plateskirt, id 1083, mdl 430
+Bajinga: Mithril plateskirt, id 1085, mdl 430
+Bajinga: Bronze plateskirt, id 1087, mdl 430
+Bajinga: Black plateskirt, id 1089, mdl 430
+Bajinga: Adamant plateskirt, id 1091, mdl 430
+Bajinga: Rune plateskirt, id 1093, mdl 430
+Bajinga: Leather chaps, id 1095, mdl 425
+Bajinga: Studded chaps, id 1097, mdl 441
+Bajinga: Dragonhide chaps, id 1099, mdl 423
+Bajinga: Iron chainbody, id 1101, mdl 464
+Bajinga: Bronze chainbody, id 1103, mdl 464
+Bajinga: Steel chainbody, id 1105, mdl 458
+Bajinga: Black chainbody, id 1107, mdl 464
+Bajinga: Mithril chainbody, id 1109, mdl 464
+Bajinga: Adamant chainbody, id 1111, mdl 464
+Bajinga: Rune chainbody, id 1113, mdl 464
+Bajinga: Iron platebody, id 1115, mdl 468
+Bajinga: Iron platebody, id 1115, mdl 344
+Bajinga: Bronze platebody, id 1117, mdl 468
+Bajinga: Bronze platebody, id 1117, mdl 344
+Bajinga: Steel platebody, id 1119, mdl 468
+Bajinga: Steel platebody, id 1119, mdl 344
+Bajinga: Mithril platebody, id 1121, mdl 468
+Bajinga: Mithril platebody, id 1121, mdl 344
+Bajinga: Adamant platebody, id 1123, mdl 468
+Bajinga: Adamant platebody, id 1123, mdl 344
+Bajinga: Black platebody, id 1125, mdl 468
+Bajinga: Black platebody, id 1125, mdl 344
+Bajinga: Rune platebody, id 1127, mdl 468
+Bajinga: Rune platebody, id 1127, mdl 344
+Bajinga: Leather body, id 1129, mdl 475
+Bajinga: Hardleather body, id 1131, mdl 5734
+Bajinga: Studded body, id 1133, mdl 466
+Bajinga: Dragonhide body, id 1135, mdl 477
+Bajinga: Iron med helm, id 1137, mdl 395
+Bajinga: Iron med helm, id 1137, mdl 117
+Bajinga: Bronze med helm, id 1139, mdl 395
+Bajinga: Bronze med helm, id 1139, mdl 117
+Bajinga: Steel med helm, id 1141, mdl 395
+Bajinga: Steel med helm, id 1141, mdl 117
+Bajinga: Mithril med helm, id 1143, mdl 395
+Bajinga: Mithril med helm, id 1143, mdl 117
+Bajinga: Adamant med helm, id 1145, mdl 395
+Bajinga: Adamant med helm, id 1145, mdl 117
+Bajinga: Rune med helm, id 1147, mdl 395
+Bajinga: Rune med helm, id 1147, mdl 117
+Bajinga: Dragon med helm, id 1149, mdl 395
+Bajinga: Dragon med helm, id 1149, mdl 239
+Bajinga: Dragon med helm, id 1149, mdl 117
+Bajinga: Dragon med helm, id 1149, mdl 129
+Bajinga: Black med helm, id 1151, mdl 395
+Bajinga: Black med helm, id 1151, mdl 117
+Bajinga: Iron full helm, id 1153, mdl 394
+Bajinga: Iron full helm, id 1153, mdl 116
+Bajinga: Bronze full helm, id 1155, mdl 394
+Bajinga: Bronze full helm, id 1155, mdl 116
+Bajinga: Steel full helm, id 1157, mdl 394
+Bajinga: Steel full helm, id 1157, mdl 116
+Bajinga: Mithril full helm, id 1159, mdl 394
+Bajinga: Mithril full helm, id 1159, mdl 116
+Bajinga: Adamant full helm, id 1161, mdl 394
+Bajinga: Adamant full helm, id 1161, mdl 116
+Bajinga: Rune full helm, id 1163, mdl 394
+Bajinga: Rune full helm, id 1163, mdl 116
+Bajinga: Black full helm, id 1165, mdl 394
+Bajinga: Black full helm, id 1165, mdl 116
+Bajinga: Leather cowl, id 1167, mdl 396
+Bajinga: Leather cowl, id 1167, mdl 90
+Bajinga: Leather cowl, id 1167, mdl 120
+Bajinga: Coif, id 1169, mdl 396
+Bajinga: Coif, id 1169, mdl 90
+Bajinga: Coif, id 1169, mdl 120
+Bajinga: Wooden shield, id 1171, mdl 517
+Bajinga: Bronze sq shield, id 1173, mdl 541
+Bajinga: Iron sq shield, id 1175, mdl 541
+Bajinga: Steel sq shield, id 1177, mdl 541
+Bajinga: Black sq shield, id 1179, mdl 541
+Bajinga: Mithril sq shield, id 1181, mdl 541
+Bajinga: Adamant sq shield, id 1183, mdl 541
+Bajinga: Rune sq shield, id 1185, mdl 541
+Bajinga: Dragon sq shield, id 1187, mdl 565
+Bajinga: Bronze kiteshield, id 1189, mdl 486
+Bajinga: Iron kiteshield, id 1191, mdl 486
+Bajinga: Steel kiteshield, id 1193, mdl 486
+Bajinga: Black kiteshield, id 1195, mdl 486
+Bajinga: Mithril kiteshield, id 1197, mdl 486
+Bajinga: Adamant kiteshield, id 1199, mdl 486
+Bajinga: Rune kiteshield, id 1201, mdl 486
+Bajinga: Iron dagger, id 1203, mdl 533
+Bajinga: Bronze dagger, id 1205, mdl 533
+Bajinga: Steel dagger, id 1207, mdl 533
+Bajinga: Mithril dagger, id 1209, mdl 533
+Bajinga: Adamant dagger, id 1211, mdl 533
+Bajinga: Rune dagger, id 1213, mdl 533
+Bajinga: Dragon dagger, id 1215, mdl 539
+Bajinga: Black dagger, id 1217, mdl 533
+Bajinga: Iron dagger(p), id 1219, mdl 504
+Bajinga: Bronze dagger(p), id 1221, mdl 504
+Bajinga: Steel dagger(p), id 1223, mdl 504
+Bajinga: Mithril dagger(p), id 1225, mdl 504
+Bajinga: Adamant dagger(p), id 1227, mdl 504
+Bajinga: Rune dagger(p), id 1229, mdl 504
+Bajinga: Dragon dagger(p), id 1231, mdl 539
+Bajinga: Black dagger(p), id 1233, mdl 504
+Bajinga: Poisoned dagger(p), id 1235, mdl 504
+Bajinga: Bronze spear, id 1237, mdl 540
+Bajinga: Iron spear, id 1239, mdl 540
+Bajinga: Steel spear, id 1241, mdl 540
+Bajinga: Mithril spear, id 1243, mdl 540
+Bajinga: Adamant spear, id 1245, mdl 540
+Bajinga: Rune spear, id 1247, mdl 540
+Bajinga: Dragon spear, id 1249, mdl 505
+Bajinga: Bronze spear(p), id 1251, mdl 540
+Bajinga: Iron spear(p), id 1253, mdl 540
+Bajinga: Steel spear(p), id 1255, mdl 540
+Bajinga: Mithril spear(p), id 1257, mdl 540
+Bajinga: Adamant spear(p), id 1259, mdl 540
+Bajinga: Rune spear(p), id 1261, mdl 540
+Bajinga: Dragon spear(p), id 1263, mdl 505
+Bajinga: Bronze pickaxe, id 1265, mdl 509
+Bajinga: Iron pickaxe, id 1267, mdl 509
+Bajinga: Steel pickaxe, id 1269, mdl 509
+Bajinga: Adamant pickaxe, id 1271, mdl 509
+Bajinga: Mithril pickaxe, id 1273, mdl 509
+Bajinga: Rune pickaxe, id 1275, mdl 509
+Bajinga: Bronze sword, id 1277, mdl 519
+Bajinga: Iron sword, id 1279, mdl 519
+Bajinga: Steel sword, id 1281, mdl 519
+Bajinga: Black sword, id 1283, mdl 519
+Bajinga: Mithril sword, id 1285, mdl 519
+Bajinga: Adamant sword, id 1287, mdl 519
+Bajinga: Rune sword, id 1289, mdl 519
+Bajinga: Bronze longsword, id 1291, mdl 518
+Bajinga: Iron longsword, id 1293, mdl 518
+Bajinga: Steel longsword, id 1295, mdl 518
+Bajinga: Black longsword, id 1297, mdl 518
+Bajinga: Mithril longsword, id 1299, mdl 518
+Bajinga: Adamant longsword, id 1301, mdl 518
+Bajinga: Rune longsword, id 1303, mdl 518
+Bajinga: Dragon longsword, id 1305, mdl 564
+Bajinga: Bronze 2h sword, id 1307, mdl 546
+Bajinga: Iron 2h sword, id 1309, mdl 546
+Bajinga: Steel 2h sword, id 1311, mdl 546
+Bajinga: Black 2h sword, id 1313, mdl 546
+Bajinga: Mithril 2h sword, id 1315, mdl 546
+Bajinga: Adamant 2h sword, id 1317, mdl 546
+Bajinga: Rune 2h sword, id 1319, mdl 546
+Bajinga: Bronze scimitar, id 1321, mdl 490
+Bajinga: Iron scimitar, id 1323, mdl 490
+Bajinga: Steel scimitar, id 1325, mdl 490
+Bajinga: Black scimitar, id 1327, mdl 490
+Bajinga: Mithril scimitar, id 1329, mdl 490
+Bajinga: Adamant scimitar, id 1331, mdl 490
+Bajinga: Rune scimitar, id 1333, mdl 490
+Bajinga: Iron warhammer, id 1335, mdl 542
+Bajinga: Bronze warhammer, id 1337, mdl 542
+Bajinga: Steel warhammer, id 1339, mdl 542
+Bajinga: Black warhammer, id 1341, mdl 542
+Bajinga: Mithril warhammer, id 1343, mdl 542
+Bajinga: Adamnt warhammer, id 1345, mdl 542
+Bajinga: Rune warhammer, id 1347, mdl 542
+Bajinga: Iron axe, id 1349, mdl 510
+Bajinga: Bronze axe, id 1351, mdl 510
+Bajinga: Steel axe, id 1353, mdl 510
+Bajinga: Mithril axe, id 1355, mdl 510
+Bajinga: Adamant axe, id 1357, mdl 510
+Bajinga: Rune axe, id 1359, mdl 510
+Bajinga: Black axe, id 1361, mdl 510
+Bajinga: Iron battleaxe, id 1363, mdl 550
+Bajinga: Steel battleaxe, id 1365, mdl 550
+Bajinga: Black battleaxe, id 1367, mdl 550
+Bajinga: Mithril battleaxe, id 1369, mdl 550
+Bajinga: Adamant battleaxe, id 1371, mdl 550
+Bajinga: Rune battleaxe, id 1373, mdl 550
+Bajinga: Bronze battleaxe, id 1375, mdl 550
+Bajinga: Dragon battleaxe, id 1377, mdl 559
+Bajinga: Staff, id 1379, mdl 534
+Bajinga: Staff of air, id 1381, mdl 534
+Bajinga: Staff of air, id 1381, mdl 567
+Bajinga: Staff of water, id 1383, mdl 534
+Bajinga: Staff of water, id 1383, mdl 567
+Bajinga: Staff of earth, id 1385, mdl 534
+Bajinga: Staff of earth, id 1385, mdl 567
+Bajinga: Staff of fire, id 1387, mdl 534
+Bajinga: Staff of fire, id 1387, mdl 567
+Bajinga: Magic staff, id 1389, mdl 534
+Bajinga: Magic staff, id 1389, mdl 567
+Bajinga: Battlestaff, id 1391, mdl 534
+Bajinga: Fire battlestaff, id 1393, mdl 534
+Bajinga: Fire battlestaff, id 1393, mdl 567
+Bajinga: Water battlestaff, id 1395, mdl 534
+Bajinga: Water battlestaff, id 1395, mdl 567
+Bajinga: Air battlestaff, id 1397, mdl 534
+Bajinga: Air battlestaff, id 1397, mdl 567
+Bajinga: Earth battlestaff, id 1399, mdl 534
+Bajinga: Earth battlestaff, id 1399, mdl 567
+Bajinga: Mystic fire staff, id 1401, mdl 534
+Bajinga: Mystic fire staff, id 1401, mdl 567
+Bajinga: Mystic water staff, id 1403, mdl 534
+Bajinga: Mystic water staff, id 1403, mdl 567
+Bajinga: Mystic air staff, id 1405, mdl 534
+Bajinga: Mystic air staff, id 1405, mdl 567
+Bajinga: Mystic earth staff, id 1407, mdl 534
+Bajinga: Mystic earth staff, id 1407, mdl 567
+Bajinga: Iban's staff, id 1409, mdl 514
+Bajinga: Scythe, id 1419, mdl 507
+Bajinga: Iron mace, id 1420, mdl 502
+Bajinga: Bronze mace, id 1422, mdl 502
+Bajinga: Steel mace, id 1424, mdl 502
+Bajinga: Black mace, id 1426, mdl 502
+Bajinga: Mithril mace, id 1428, mdl 502
+Bajinga: Adamant mace, id 1430, mdl 502
+Bajinga: Rune mace, id 1432, mdl 502
+Bajinga: Dragon mace, id 1434, mdl 493
+Bajinga: Amulet of accuracy, id 1478, mdl 444
+Bajinga: Klank's gauntlets, id 1495, mdl 356
+Bajinga: Gas mask, id 1506, mdl 389
+Bajinga: Gas mask, id 1506, mdl 112
+Bajinga: Logs, id 1511, mdl 4048
+Bajinga: Anti-dragon shield, id 1540, mdl 526
+Bajinga: Cat training medal, id 1575, mdl 453
+Bajinga: Ice gloves, id 1580, mdl 356
+Bajinga: Diamond, id 1601, mdl 516
+Bajinga: Ruby, id 1603, mdl 516
+Bajinga: Emerald, id 1605, mdl 516
+Bajinga: Sapphire, id 1607, mdl 516
+Bajinga: Opal, id 1609, mdl 516
+Bajinga: Jade, id 1611, mdl 516
+Bajinga: Red topaz, id 1613, mdl 516
+Bajinga: Dragonstone, id 1615, mdl 516
+Bajinga: Gold necklace, id 1654, mdl 445
+Bajinga: Sapphire necklace, id 1656, mdl 445
+Bajinga: Emerald necklace, id 1658, mdl 445
+Bajinga: Ruby necklace, id 1660, mdl 445
+Bajinga: Diamond necklace, id 1662, mdl 445
+Bajinga: Dragon necklace, id 1664, mdl 445
+Bajinga: Gold amulet, id 1692, mdl 454
+Bajinga: Sapphire amulet, id 1694, mdl 454
+Bajinga: Emerald amulet, id 1696, mdl 454
+Bajinga: Ruby amulet, id 1698, mdl 454
+Bajinga: Diamond amulet, id 1700, mdl 454
+Bajinga: Dragonstoneamulet, id 1702, mdl 454
+Bajinga: Amulet of glory, id 1704, mdl 454
+Bajinga: Amulet of glory(1), id 1706, mdl 454
+Bajinga: Amulet of glory(2), id 1708, mdl 454
+Bajinga: Amulet of glory(3), id 1710, mdl 454
+Bajinga: Amulet of glory(4), id 1712, mdl 454
+Bajinga: Unblessed symbol, id 1716, mdl 444
+Bajinga: Unblessed symbol, id 1716, mdl 448
+Bajinga: Holy symbol, id 1718, mdl 444
+Bajinga: Holy symbol, id 1718, mdl 448
+Bajinga: Unpowered symbol, id 1722, mdl 444
+Bajinga: Unpowered symbol, id 1722, mdl 450
+Bajinga: Unholy symbol, id 1724, mdl 444
+Bajinga: Unholy symbol, id 1724, mdl 450
+Bajinga: Amulet of strength, id 1725, mdl 454
+Bajinga: Amulet of magic, id 1727, mdl 454
+Bajinga: Amulet of defence, id 1729, mdl 454
+Bajinga: Amulet of power, id 1731, mdl 454
+Bajinga: Needle, id 1733, mdl 4047
+Bajinga: Shears, id 1735, mdl 525
+Bajinga: Leather, id 1741, mdl 4046
+Bajinga: Brown apron, id 1757, mdl 467
+Bajinga: Glassblowing pipe, id 1785, mdl 515
+Bajinga: Silver necklace, id 1796, mdl 445
+Bajinga: Silver necklace, id 1797, mdl 445
+Bajinga: Desert shirt, id 1833, mdl 456
+Bajinga: Desert shirt, id 1833, mdl 348
+Bajinga: Desert robe, id 1835, mdl 428
+Bajinga: Desert boots, id 1837, mdl 361
+Bajinga: Slaves' shirt, id 1844, mdl 456
+Bajinga: Slaves' shirt, id 1844, mdl 348
+Bajinga: Slave robe, id 1845, mdl 428
+Bajinga: Slave boots, id 1846, mdl 361
+Bajinga: Bucket, id 1925, mdl 543
+Bajinga: Chef's hat, id 1949, mdl 374
+Bajinga: Chef's hat, id 1949, mdl 99
+Bajinga: Banana, id 1963, mdl 3874
+Bajinga: Hammer, id 2347, mdl 491
+Bajinga: Silverlight, id 2402, mdl 513
+Bajinga: Carnillean armour, id 2405, mdl 468
+Bajinga: Carnillean armour, id 2405, mdl 344
+Bajinga: Hazeel's mark, id 2406, mdl 450
+Bajinga: Saradomin cape, id 2412, mdl 481
+Bajinga: Guthix cape, id 2413, mdl 481
+Bajinga: Zamorak cape, id 2414, mdl 481
+Bajinga: Saradomin staff, id 2415, mdl 554
+Bajinga: Guthix staff, id 2416, mdl 527
+Bajinga: Zamorak staff, id 2417, mdl 544
+Bajinga: Flowers, id 2460, mdl 677
+Bajinga: Flowers, id 2462, mdl 677
+Bajinga: Flowers, id 2464, mdl 677
+Bajinga: Flowers, id 2466, mdl 677
+Bajinga: Flowers, id 2468, mdl 677
+Bajinga: Flowers, id 2470, mdl 677
+Bajinga: Flowers, id 2472, mdl 677
+Bajinga: Flowers, id 2474, mdl 677
+Bajinga: Flowers, id 2476, mdl 677
+Bajinga: Dragon vambraces, id 2487, mdl 355
+Bajinga: Dragon vambraces, id 2489, mdl 355
+Bajinga: Dragon vambraces, id 2491, mdl 355
+Bajinga: Dragonhide chaps, id 2493, mdl 423
+Bajinga: Dragonhide chaps, id 2495, mdl 423
+Bajinga: Dragonhide chaps, id 2497, mdl 423
+Bajinga: Dragonhide body, id 2499, mdl 477
+Bajinga: Dragonhide body, id 2501, mdl 477
+Bajinga: Dragonhide body, id 2503, mdl 477
+Bajinga: Toy horsey, id 2520, mdl 3333
+Bajinga: Toy horsey, id 2522, mdl 3333
+Bajinga: Toy horsey, id 2524, mdl 3333
+Bajinga: Toy horsey, id 2526, mdl 3333
+Bajinga: Ranger boots, id 2577, mdl 4930
+Bajinga: Wizard's boots, id 2579, mdl 361
+Bajinga: Robin hood hat, id 2581, mdl 3382
+Bajinga: Robin hood hat, id 2581, mdl 3385
+Bajinga: Black platebody (t), id 2583, mdl 3383
+Bajinga: Black platebody (t), id 2583, mdl 344
+Bajinga: Black platelegs (t), id 2585, mdl 432
+Bajinga: Black full helm (t), id 2587, mdl 394
+Bajinga: Black full helm (t), id 2587, mdl 116
+Bajinga: Black kiteshield (t), id 2589, mdl 486
+Bajinga: Black platebody (g), id 2591, mdl 3383
+Bajinga: Black platebody (g), id 2591, mdl 344
+Bajinga: Black platelegs (g), id 2593, mdl 432
+Bajinga: Black full helm (g), id 2595, mdl 394
+Bajinga: Black full helm (g), id 2595, mdl 116
+Bajinga: Black kiteshield (g), id 2597, mdl 486
+Bajinga: Adam platebody (t), id 2599, mdl 3383
+Bajinga: Adam platebody (t), id 2599, mdl 344
+Bajinga: Adam platelegs (t), id 2601, mdl 432
+Bajinga: Adam kiteshield (t), id 2603, mdl 486
+Bajinga: Adam full helm (t), id 2605, mdl 394
+Bajinga: Adam full helm (t), id 2605, mdl 116
+Bajinga: Adam platebody (g), id 2607, mdl 3383
+Bajinga: Adam platebody (g), id 2607, mdl 344
+Bajinga: Adam platelegs (g), id 2609, mdl 432
+Bajinga: Adam kiteshield (g), id 2611, mdl 486
+Bajinga: Adam full helm (g), id 2613, mdl 394
+Bajinga: Adam full helm (g), id 2613, mdl 116
+Bajinga: Rune platebody (g), id 2615, mdl 3383
+Bajinga: Rune platebody (g), id 2615, mdl 344
+Bajinga: Rune platelegs (g), id 2617, mdl 432
+Bajinga: Rune full helm (g), id 2619, mdl 394
+Bajinga: Rune full helm (g), id 2619, mdl 116
+Bajinga: Rune kiteshield (g), id 2621, mdl 486
+Bajinga: Rune platebody (t), id 2623, mdl 3383
+Bajinga: Rune platebody (t), id 2623, mdl 344
+Bajinga: Rune platelegs (t), id 2625, mdl 432
+Bajinga: Rune full helm (t), id 2627, mdl 394
+Bajinga: Rune full helm (t), id 2627, mdl 116
+Bajinga: Rune kiteshield (t), id 2629, mdl 486
+Bajinga: Highwayman mask, id 2631, mdl 416
+Bajinga: Highwayman mask, id 2631, mdl 134
+Bajinga: Blue beret, id 2633, mdl 373
+Bajinga: Blue beret, id 2633, mdl 98
+Bajinga: Black beret, id 2635, mdl 373
+Bajinga: Black beret, id 2635, mdl 98
+Bajinga: White beret, id 2637, mdl 373
+Bajinga: White beret, id 2637, mdl 98
+Bajinga: Tan cavalier, id 2639, mdl 362
+Bajinga: Tan cavalier, id 2639, mdl 86
+Bajinga: Dark cavalier, id 2641, mdl 362
+Bajinga: Dark cavalier, id 2641, mdl 86
+Bajinga: Black cavalier, id 2643, mdl 362
+Bajinga: Black cavalier, id 2643, mdl 86
+Bajinga: Red headband, id 2645, mdl 376
+Bajinga: Red headband, id 2645, mdl 101
+Bajinga: Black headband, id 2647, mdl 376
+Bajinga: Black headband, id 2647, mdl 101
+Bajinga: Brown headband, id 2649, mdl 376
+Bajinga: Brown headband, id 2649, mdl 101
+Bajinga: Pirate's hat, id 2651, mdl 367
+Bajinga: Pirate's hat, id 2651, mdl 89
+Bajinga: Zamorak platebody, id 2653, mdl 3383
+Bajinga: Zamorak platebody, id 2653, mdl 344
+Bajinga: Zamorak platebody, id 2653, mdl 3381
+Bajinga: Zamorak platelegs, id 2655, mdl 432
+Bajinga: Zamorak full helm, id 2657, mdl 394
+Bajinga: Zamorak full helm, id 2657, mdl 116
+Bajinga: Zamorak kiteshield, id 2659, mdl 486
+Bajinga: Saradomin plate, id 2661, mdl 3383
+Bajinga: Saradomin plate, id 2661, mdl 344
+Bajinga: Saradomin plate, id 2661, mdl 3330
+Bajinga: Saradomin legs, id 2663, mdl 432
+Bajinga: Saradomin full, id 2665, mdl 394
+Bajinga: Saradomin full, id 2665, mdl 116
+Bajinga: Saradomin kite, id 2667, mdl 486
+Bajinga: Guthix platebody, id 2669, mdl 3383
+Bajinga: Guthix platebody, id 2669, mdl 344
+Bajinga: Guthix platebody, id 2669, mdl 3380
+Bajinga: Guthix platelegs, id 2671, mdl 432
+Bajinga: Guthix full helm, id 2673, mdl 394
+Bajinga: Guthix full helm, id 2673, mdl 116
+Bajinga: Guthix kiteshield, id 2675, mdl 486
+Bajinga: Ogre bow, id 2883, mdl 3443
+Bajinga: Elemental shield, id 2890, mdl 3470
+Bajinga: Boots, id 2894, mdl 361
+Bajinga: Robe top, id 2896, mdl 348
+Bajinga: Robe top, id 2896, mdl 456
+Bajinga: Robe bottoms, id 2898, mdl 428
+Bajinga: Hat, id 2900, mdl 377
+Bajinga: Hat, id 2900, mdl 102
+Bajinga: Gloves, id 2902, mdl 356
+Bajinga: Boots, id 2904, mdl 361
+Bajinga: Robe top, id 2906, mdl 348
+Bajinga: Robe top, id 2906, mdl 456
+Bajinga: Robe bottoms, id 2908, mdl 428
+Bajinga: Hat, id 2910, mdl 377
+Bajinga: Hat, id 2910, mdl 102
+Bajinga: Gloves, id 2912, mdl 356
+Bajinga: Boots, id 2914, mdl 361
+Bajinga: Robe top, id 2916, mdl 348
+Bajinga: Robe top, id 2916, mdl 456
+Bajinga: Robe bottoms, id 2918, mdl 428
+Bajinga: Hat, id 2920, mdl 377
+Bajinga: Hat, id 2920, mdl 102
+Bajinga: Gloves, id 2922, mdl 356
+Bajinga: Boots, id 2924, mdl 361
+Bajinga: Robe top, id 2926, mdl 348
+Bajinga: Robe top, id 2926, mdl 456
+Bajinga: Robe bottoms, id 2928, mdl 428
+Bajinga: Hat, id 2930, mdl 377
+Bajinga: Hat, id 2930, mdl 102
+Bajinga: Gloves, id 2932, mdl 356
+Bajinga: Boots, id 2934, mdl 361
+Bajinga: Robe top, id 2936, mdl 348
+Bajinga: Robe top, id 2936, mdl 456
+Bajinga: Robe bottoms, id 2938, mdl 428
+Bajinga: Hat, id 2940, mdl 377
+Bajinga: Hat, id 2940, mdl 102
+Bajinga: Gloves, id 2942, mdl 356
+Bajinga: Golden tinderbox, id 2946, mdl 488
+Bajinga: Golden hammer, id 2949, mdl 491
+Bajinga: Wolfbane, id 2952, mdl 3482
+Bajinga: Silver sickle, id 2961, mdl 3604
+Bajinga: Silver sickle(b), id 2963, mdl 3604
+Bajinga: Druidic spell, id 2968, mdl 532
+Bajinga: A used spell, id 2969, mdl 532
+Bajinga: Chompy bird hat, id 2978, mdl 3617
+Bajinga: Chompy bird hat, id 2978, mdl 3611
+Bajinga: Chompy bird hat, id 2979, mdl 3617
+Bajinga: Chompy bird hat, id 2979, mdl 3611
+Bajinga: Chompy bird hat, id 2980, mdl 3617
+Bajinga: Chompy bird hat, id 2980, mdl 3611
+Bajinga: Chompy bird hat, id 2981, mdl 3617
+Bajinga: Chompy bird hat, id 2981, mdl 3611
+Bajinga: Chompy bird hat, id 2982, mdl 3617
+Bajinga: Chompy bird hat, id 2982, mdl 3611
+Bajinga: Chompy bird hat, id 2983, mdl 3617
+Bajinga: Chompy bird hat, id 2983, mdl 3611
+Bajinga: Chompy bird hat, id 2984, mdl 3618
+Bajinga: Chompy bird hat, id 2984, mdl 3612
+Bajinga: Chompy bird hat, id 2985, mdl 3618
+Bajinga: Chompy bird hat, id 2985, mdl 3612
+Bajinga: Chompy bird hat, id 2986, mdl 3618
+Bajinga: Chompy bird hat, id 2986, mdl 3612
+Bajinga: Chompy bird hat, id 2987, mdl 3618
+Bajinga: Chompy bird hat, id 2987, mdl 3612
+Bajinga: Chompy bird hat, id 2988, mdl 3618
+Bajinga: Chompy bird hat, id 2988, mdl 3612
+Bajinga: Chompy bird hat, id 2989, mdl 3618
+Bajinga: Chompy bird hat, id 2989, mdl 3612
+Bajinga: Chompy bird hat, id 2990, mdl 3619
+Bajinga: Chompy bird hat, id 2990, mdl 3613
+Bajinga: Chompy bird hat, id 2991, mdl 3619
+Bajinga: Chompy bird hat, id 2991, mdl 3613
+Bajinga: Chompy bird hat, id 2992, mdl 3619
+Bajinga: Chompy bird hat, id 2992, mdl 3613
+Bajinga: Chompy bird hat, id 2993, mdl 3619
+Bajinga: Chompy bird hat, id 2993, mdl 3613
+Bajinga: Chompy bird hat, id 2994, mdl 3619
+Bajinga: Chompy bird hat, id 2994, mdl 3613
+Bajinga: Chompy bird hat, id 2995, mdl 3619
+Bajinga: Chompy bird hat, id 2995, mdl 3613
+Bajinga: Pirate's hook, id 2997, mdl 3661
+Bajinga: Lava battlestaff, id 3053, mdl 534
+Bajinga: Lava battlestaff, id 3053, mdl 3665
+Bajinga: Mystic lava staff, id 3054, mdl 534
+Bajinga: Mystic lava staff, id 3054, mdl 3665
+Bajinga: Mime mask, id 3057, mdl 3674
+Bajinga: Mime mask, id 3057, mdl 3548
+Bajinga: Mime top, id 3058, mdl 456
+Bajinga: Mime top, id 3058, mdl 348
+Bajinga: Mime top, id 3058, mdl 3675
+Bajinga: Mime legs, id 3059, mdl 419
+Bajinga: Mime gloves, id 3060, mdl 356
+Bajinga: Mime boots, id 3061, mdl 361
+Bajinga: Black dart, id 3093, mdl 492
+Bajinga: Black dart(p), id 3094, mdl 500
+Bajinga: Bronze claws, id 3095, mdl 3780
+Bajinga: Iron claws, id 3096, mdl 3780
+Bajinga: Steel claws, id 3097, mdl 3780
+Bajinga: Black claws, id 3098, mdl 3780
+Bajinga: Mithril claws, id 3099, mdl 3780
+Bajinga: Adamant claws, id 3100, mdl 3780
+Bajinga: Rune claws, id 3101, mdl 3780
+Bajinga: Climbing boots, id 3105, mdl 3708
+Bajinga: Spiked boots, id 3107, mdl 3709
+Bajinga: Granite shield, id 3122, mdl 2929
+Bajinga: Dragon chainbody, id 3140, mdl 3821
+Bajinga: Dragon chainbody, id 3140, mdl 337
+Bajinga: Karambwan vessel, id 3157, mdl 3878
+Bajinga: Karambwan vessel, id 3159, mdl 3878
+Bajinga: Karamjan rum, id 3164, mdl 3877
+Bajinga: Bronze spear(kp), id 3170, mdl 540
+Bajinga: Iron spear(kp), id 3171, mdl 540
+Bajinga: Steel spear(kp), id 3172, mdl 540
+Bajinga: Mithril spear(kp), id 3173, mdl 540
+Bajinga: Adamant spear(kp), id 3174, mdl 540
+Bajinga: Rune spear(kp), id 3175, mdl 540
+Bajinga: Dragon spear(kp), id 3176, mdl 505
+Bajinga: Banana left, id 3177, mdl 3875
+Bajinga: Bronze halberd, id 3190, mdl 555
+Bajinga: Iron halberd, id 3192, mdl 555
+Bajinga: Steel halberd, id 3194, mdl 555
+Bajinga: Black halberd, id 3196, mdl 555
+Bajinga: Mithril halberd, id 3198, mdl 555
+Bajinga: Adamant halberd, id 3200, mdl 555
+Bajinga: Rune halberd, id 3202, mdl 555
+Bajinga: Dragon halberd, id 3204, mdl 3885
+Bajinga: Crystal pendant, id 3208, mdl 447
+Bajinga: Myre snelm, id 3327, mdl 4101
+Bajinga: Myre snelm, id 3327, mdl 4097
+Bajinga: Blood'n'tar snelm, id 3329, mdl 4101
+Bajinga: Blood'n'tar snelm, id 3329, mdl 4097
+Bajinga: Ochre snelm, id 3331, mdl 4101
+Bajinga: Ochre snelm, id 3331, mdl 4097
+Bajinga: Bruise blue snelm, id 3333, mdl 4101
+Bajinga: Bruise blue snelm, id 3333, mdl 4097
+Bajinga: Broken bark snelm, id 3335, mdl 4101
+Bajinga: Broken bark snelm, id 3335, mdl 4097
+Bajinga: Myre snelm, id 3337, mdl 4102
+Bajinga: Myre snelm, id 3337, mdl 4098
+Bajinga: Blood'n'tar snelm, id 3339, mdl 4102
+Bajinga: Blood'n'tar snelm, id 3339, mdl 4098
+Bajinga: Ochre snelm, id 3341, mdl 4102
+Bajinga: Ochre snelm, id 3341, mdl 4098
+Bajinga: Bruise blue snelm, id 3343, mdl 4102
+Bajinga: Bruise blue snelm, id 3343, mdl 4098
+Bajinga: Splitbark helm, id 3385, mdl 4121
+Bajinga: Splitbark helm, id 3385, mdl 4111
+Bajinga: Splitbark body, id 3387, mdl 4123
+Bajinga: Splitbark body, id 3387, mdl 4118
+Bajinga: Splitbark legs, id 3389, mdl 4122
+Bajinga: Splitbark gauntlets, id 3391, mdl 4119
+Bajinga: Splitbark greaves, id 3393, mdl 4120
+Bajinga: Black plateskirt (t), id 3472, mdl 4207
+Bajinga: Black plateskirt (g), id 3473, mdl 4207
+Bajinga: Adam plateskirt (t), id 3474, mdl 4207
+Bajinga: Adam plateskirt (g), id 3475, mdl 4207
+Bajinga: Rune plateskirt (g), id 3476, mdl 4207
+Bajinga: Rune plateskirt (t), id 3477, mdl 4207
+Bajinga: Zamorak plateskirt, id 3478, mdl 4207
+Bajinga: Saradomin skirt, id 3479, mdl 4207
+Bajinga: Guthix plateskirt, id 3480, mdl 4207
+Bajinga: Gilded platebody, id 3481, mdl 3383
+Bajinga: Gilded platebody, id 3481, mdl 344
+Bajinga: Gilded platelegs, id 3483, mdl 432
+Bajinga: Gilded plateskirt, id 3485, mdl 4207
+Bajinga: Gilded full helm, id 3486, mdl 394
+Bajinga: Gilded full helm, id 3486, mdl 116
+Bajinga: Gilded kiteshield, id 3488, mdl 486
+Bajinga: Unstrung lyre, id 3688, mdl 4394
+Bajinga: Lyre, id 3689, mdl 4394
+Bajinga: Enchanted lyre, id 3690, mdl 4394
+Bajinga: Pet rock, id 3695, mdl 4395
+Bajinga: Keg of beer, id 3711, mdl 4393
+Bajinga: Fremennik helm, id 3748, mdl 391
+Bajinga: Fremennik helm, id 3748, mdl 4221
+Bajinga: Fremennik helm, id 3748, mdl 4228
+Bajinga: Fremennik helm, id 3748, mdl 4216
+Bajinga: Fremennik helm, id 3748, mdl 4211
+Bajinga: Archer helm, id 3749, mdl 391
+Bajinga: Archer helm, id 3749, mdl 4232
+Bajinga: Archer helm, id 3749, mdl 4228
+Bajinga: Archer helm, id 3749, mdl 4216
+Bajinga: Archer helm, id 3749, mdl 4214
+Bajinga: Berserker helm, id 3751, mdl 391
+Bajinga: Berserker helm, id 3751, mdl 4230
+Bajinga: Berserker helm, id 3751, mdl 4228
+Bajinga: Berserker helm, id 3751, mdl 4216
+Bajinga: Berserker helm, id 3751, mdl 4212
+Bajinga: Warrior helm, id 3753, mdl 391
+Bajinga: Warrior helm, id 3753, mdl 4233
+Bajinga: Warrior helm, id 3753, mdl 4228
+Bajinga: Warrior helm, id 3753, mdl 4216
+Bajinga: Warrior helm, id 3753, mdl 4215
+Bajinga: Farseer helm, id 3755, mdl 391
+Bajinga: Farseer helm, id 3755, mdl 4231
+Bajinga: Farseer helm, id 3755, mdl 4228
+Bajinga: Farseer helm, id 3755, mdl 4216
+Bajinga: Farseer helm, id 3755, mdl 4213
+Bajinga: Fremennik blade, id 3757, mdl 4236
+Bajinga: Fremennik shield, id 3758, mdl 4235
+Bajinga: Fremennik cloak, id 3759, mdl 479
+Bajinga: Fremennik cloak, id 3761, mdl 479
+Bajinga: Fremennik cloak, id 3763, mdl 479
+Bajinga: Fremennik cloak, id 3765, mdl 479
+Bajinga: Fremennik shirt, id 3767, mdl 348
+Bajinga: Fremennik shirt, id 3767, mdl 470
+Bajinga: Fremennik shirt, id 3767, mdl 4392
+Bajinga: Fremennik shirt, id 3769, mdl 348
+Bajinga: Fremennik shirt, id 3769, mdl 470
+Bajinga: Fremennik shirt, id 3769, mdl 4392
+Bajinga: Fremennik shirt, id 3771, mdl 348
+Bajinga: Fremennik shirt, id 3771, mdl 470
+Bajinga: Fremennik shirt, id 3771, mdl 4392
+Bajinga: Fremennik shirt, id 3773, mdl 348
+Bajinga: Fremennik shirt, id 3773, mdl 470
+Bajinga: Fremennik shirt, id 3773, mdl 4392
+Bajinga: Fremennik shirt, id 3775, mdl 348
+Bajinga: Fremennik shirt, id 3775, mdl 470
+Bajinga: Fremennik shirt, id 3775, mdl 4392
+Bajinga: Fremennik cloak, id 3777, mdl 479
+Bajinga: Fremennik cloak, id 3779, mdl 479
+Bajinga: Fremennik cloak, id 3781, mdl 479
+Bajinga: Fremennik cloak, id 3783, mdl 479
+Bajinga: Fremennik cloak, id 3785, mdl 479
+Bajinga: Fremennik cloak, id 3787, mdl 479
+Bajinga: Fremennik cloak, id 3789, mdl 479
+Bajinga: Fremennik boots, id 3791, mdl 361
+Bajinga: Fremennik robe, id 3793, mdl 348
+Bajinga: Fremennik robe, id 3793, mdl 456
+Bajinga: Fremennik skirt, id 3795, mdl 428
+Bajinga: Fremennik hat, id 3797, mdl 377
+Bajinga: Fremennik hat, id 3797, mdl 102
+Bajinga: Gloves, id 3799, mdl 356
+Bajinga: Keg of beer, id 3801, mdl 4393
+Bajinga: Beer, id 3803, mdl 4396
+Bajinga: Damaged book, id 3839, mdl 556
+Bajinga: Holy book, id 3840, mdl 556
+Bajinga: Damaged book, id 3841, mdl 556
+Bajinga: Unholy book, id 3842, mdl 556
+Bajinga: Damaged book, id 3843, mdl 556
+Bajinga: Book of balance, id 3844, mdl 556
+Bajinga: Readbook dummy, id 3850, mdl 4591
+Bajinga: Games necklace(8), id 3853, mdl 445
+Bajinga: Games necklace(7), id 3855, mdl 445
+Bajinga: Games necklace(6), id 3857, mdl 445
+Bajinga: Games necklace(5), id 3859, mdl 445
+Bajinga: Games necklace(4), id 3861, mdl 445
+Bajinga: Games necklace(3), id 3863, mdl 445
+Bajinga: Games necklace(2), id 3865, mdl 445
+Bajinga: Games necklace(1), id 3867, mdl 445
+Bajinga: Stool, id 3893, mdl 4610
+Bajinga: Iron sickle, id 3899, mdl 3604
+Bajinga: M'speak amulet, id 4021, mdl 4668
+Bajinga: 10th squad sigil, id 4035, mdl 4669
+Bajinga: Saradomin banner, id 4037, mdl 4850
+Bajinga: Zamorak banner, id 4039, mdl 4851
+Bajinga: Hooded cloak, id 4041, mdl 4849
+Bajinga: Hooded cloak, id 4041, mdl 107
+Bajinga: Hooded cloak, id 4042, mdl 4849
+Bajinga: Hooded cloak, id 4042, mdl 107
+Bajinga: Decorative sword, id 4068, mdl 522
+Bajinga: Decorative armour, id 4069, mdl 468
+Bajinga: Decorative armour, id 4069, mdl 344
+Bajinga: Decorative armour, id 4070, mdl 432
+Bajinga: Decorative helm, id 4071, mdl 395
+Bajinga: Decorative helm, id 4071, mdl 117
+Bajinga: Decorative shield, id 4072, mdl 486
+Bajinga: Damp tinderbox, id 4073, mdl 488
+Bajinga: Xmas yoyoworn, id 4080, mdl 4927
+Bajinga: Salve amulet, id 4081, mdl 4933
+Bajinga: Sled, id 4083, mdl 4946
+Bajinga: Sled, id 4084, mdl 4946
+Bajinga: Wax, id 4085, mdl 4875
+Bajinga: Trollweiss, id 4086, mdl 677
+Bajinga: Dragon platelegs, id 4087, mdl 5025
+Bajinga: Mystic hat, id 4089, mdl 5033
+Bajinga: Mystic hat, id 4089, mdl 4951
+Bajinga: Mystic robe top, id 4091, mdl 5029
+Bajinga: Mystic robe top, id 4091, mdl 5035
+Bajinga: Mystic robe bottom, id 4093, mdl 5034
+Bajinga: Mystic gloves, id 4095, mdl 5030
+Bajinga: Mystic boots, id 4097, mdl 5032
+Bajinga: Mystic hat, id 4099, mdl 5033
+Bajinga: Mystic hat, id 4099, mdl 4951
+Bajinga: Mystic robe top, id 4101, mdl 5029
+Bajinga: Mystic robe top, id 4101, mdl 5035
+Bajinga: Mystic robe bottom, id 4103, mdl 5034
+Bajinga: Mystic gloves, id 4105, mdl 5030
+Bajinga: Mystic boots, id 4107, mdl 5032
+Bajinga: Mystic hat, id 4109, mdl 5033
+Bajinga: Mystic hat, id 4109, mdl 4951
+Bajinga: Mystic robe top, id 4111, mdl 5029
+Bajinga: Mystic robe top, id 4111, mdl 5035
+Bajinga: Mystic robe bottom, id 4113, mdl 5034
+Bajinga: Mystic gloves, id 4115, mdl 5030
+Bajinga: Mystic boots, id 4117, mdl 5032
+Bajinga: Bronze boots, id 4119, mdl 5031
+Bajinga: Iron boots, id 4121, mdl 5031
+Bajinga: Steel boots, id 4123, mdl 5031
+Bajinga: Black boots, id 4125, mdl 5031
+Bajinga: Mithril boots, id 4127, mdl 5031
+Bajinga: Adamant boots, id 4129, mdl 5031
+Bajinga: Rune boots, id 4131, mdl 5031
+Bajinga: Abyssal whip, id 4151, mdl 5409
+Bajinga: Granite maul, id 4153, mdl 5410
+Bajinga: Enchanted gem, id 4155, mdl 516
+Bajinga: Mirror shield, id 4156, mdl 5112
+Bajinga: Leaf-bladed spear, id 4158, mdl 5111
+Bajinga: Bag of salt, id 4161, mdl 5110
+Bajinga: Rock hammer, id 4162, mdl 5113
+Bajinga: Facemask, id 4164, mdl 5109
+Bajinga: Facemask, id 4164, mdl 5098
+Bajinga: Earmuffs, id 4166, mdl 5108
+Bajinga: Earmuffs, id 4166, mdl 5097
+Bajinga: Nose peg, id 4168, mdl 5107
+Bajinga: Nose peg, id 4168, mdl 5096
+Bajinga: Slayer's staff, id 4170, mdl 5036
+Bajinga: Mouth grip, id 4181, mdl 5186
+Bajinga: Extended brush, id 4193, mdl 5146
+Bajinga: New crystal bow, id 4212, mdl 5197
+Bajinga: Crystal bow full, id 4214, mdl 5197
+Bajinga: Crystal bow 9/10, id 4215, mdl 5197
+Bajinga: Crystal bow 8/10, id 4216, mdl 5197
+Bajinga: Crystal bow 7/10, id 4217, mdl 5197
+Bajinga: Crystal bow 6/10, id 4218, mdl 5197
+Bajinga: Crystal bow 5/10, id 4219, mdl 5197
+Bajinga: Crystal bow 4/10, id 4220, mdl 5197
+Bajinga: Crystal bow 3/10, id 4221, mdl 5197
+Bajinga: Crystal bow 2/10, id 4222, mdl 5197
+Bajinga: Crystal bow 1/10, id 4223, mdl 5197
+Bajinga: New crystal shield, id 4224, mdl 5196
+Bajinga: Crystal shield full, id 4225, mdl 5196
+Bajinga: Crystal shield 9/10, id 4226, mdl 5196
+Bajinga: Crystal shield 8/10, id 4227, mdl 5196
+Bajinga: Crystal shield 7/10, id 4228, mdl 5196
+Bajinga: Crystal shield 6/10, id 4229, mdl 5196
+Bajinga: Crystal shield 5/10, id 4230, mdl 5196
+Bajinga: Crystal shield 4/10, id 4231, mdl 5196
+Bajinga: Crystal shield 3/10, id 4232, mdl 5196
+Bajinga: Crystal shield 2/10, id 4233, mdl 5196
+Bajinga: Crystal shield 1/10, id 4234, mdl 5196
+Bajinga: Oak longbow, id 4236, mdl 563
+Bajinga: Ghostspeak amulet, id 4250, mdl 444
+Bajinga: Ectophial, id 4251, mdl 5229
+Bajinga: Ham shirt, id 4298, mdl 470
+Bajinga: Ham shirt, id 4298, mdl 348
+Bajinga: Ham robe, id 4300, mdl 428
+Bajinga: Ham hood, id 4302, mdl 5435
+Bajinga: Ham hood, id 4302, mdl 5429
+Bajinga: Ham cloak, id 4304, mdl 481
+Bajinga: Ham cloak, id 4304, mdl 5433
+Bajinga: H.a.m logo, id 4306, mdl 5434
+Bajinga: Gloves, id 4308, mdl 356
+Bajinga: Boots, id 4310, mdl 361
+Bajinga: Team-1 cape, id 4315, mdl 5594
+Bajinga: Team-2 cape, id 4317, mdl 5596
+Bajinga: Team-3 cape, id 4319, mdl 5597
+Bajinga: Team-4 cape, id 4321, mdl 5598
+Bajinga: Team-5 cape, id 4323, mdl 5599
+Bajinga: Team-6 cape, id 4325, mdl 5600
+Bajinga: Team-7 cape, id 4327, mdl 5601
+Bajinga: Team-8 cape, id 4329, mdl 5602
+Bajinga: Team-9 cape, id 4331, mdl 5603
+Bajinga: Team-10 cape, id 4333, mdl 5595
+Bajinga: Team-11 cape, id 4335, mdl 5594
+Bajinga: Team-12 cape, id 4337, mdl 5596
+Bajinga: Team-13 cape, id 4339, mdl 5597
+Bajinga: Team-14 cape, id 4341, mdl 5598
+Bajinga: Team-15 cape, id 4343, mdl 5599
+Bajinga: Team-16 cape, id 4345, mdl 5600
+Bajinga: Team-17 cape, id 4347, mdl 5601
+Bajinga: Team-18 cape, id 4349, mdl 5602
+Bajinga: Team-19 cape, id 4351, mdl 5603
+Bajinga: Team-20 cape, id 4353, mdl 5595
+Bajinga: Team-21 cape, id 4355, mdl 5594
+Bajinga: Team-22 cape, id 4357, mdl 5596
+Bajinga: Team-23 cape, id 4359, mdl 5597
+Bajinga: Team-24 cape, id 4361, mdl 5598
+Bajinga: Team-25 cape, id 4363, mdl 5599
+Bajinga: Team-26 cape, id 4365, mdl 5600
+Bajinga: Team-27 cape, id 4367, mdl 5601
+Bajinga: Team-28 cape, id 4369, mdl 5602
+Bajinga: Team-29 cape, id 4371, mdl 5603
+Bajinga: Team-30 cape, id 4373, mdl 5595
+Bajinga: Team-31 cape, id 4375, mdl 5594
+Bajinga: Team-32 cape, id 4377, mdl 5596
+Bajinga: Team-33 cape, id 4379, mdl 5597
+Bajinga: Team-34 cape, id 4381, mdl 5598
+Bajinga: Team-35 cape, id 4383, mdl 5599
+Bajinga: Team-36 cape, id 4385, mdl 5600
+Bajinga: Team-37 cape, id 4387, mdl 5601
+Bajinga: Team-38 cape, id 4389, mdl 5602
+Bajinga: Team-39 cape, id 4391, mdl 5603
+Bajinga: Team-40 cape, id 4393, mdl 5595
+Bajinga: Team-41 cape, id 4395, mdl 5594
+Bajinga: Team-42 cape, id 4397, mdl 5596
+Bajinga: Team-43 cape, id 4399, mdl 5597
+Bajinga: Team-44 cape, id 4401, mdl 5598
+Bajinga: Team-45 cape, id 4403, mdl 5599
+Bajinga: Team-46 cape, id 4405, mdl 5600
+Bajinga: Team-47 cape, id 4407, mdl 5601
+Bajinga: Team-48 cape, id 4409, mdl 5602
+Bajinga: Team-49 cape, id 4411, mdl 5603
+Bajinga: Team-50 cape, id 4413, mdl 5595
+Bajinga: Weather report, id 4435, mdl 532
+Bajinga: Rope, id 4498, mdl 5680
+Bajinga: Pole, id 4500, mdl 5679
+Bajinga: Bearhead, id 4502, mdl 5676
+Bajinga: Bearhead, id 4502, mdl 5665
+Bajinga: Decorative sword, id 4503, mdl 522
+Bajinga: Decorative armour, id 4504, mdl 468
+Bajinga: Decorative armour, id 4504, mdl 344
+Bajinga: Decorative armour, id 4505, mdl 432
+Bajinga: Decorative helm, id 4506, mdl 395
+Bajinga: Decorative helm, id 4506, mdl 117
+Bajinga: Decorative shield, id 4507, mdl 486
+Bajinga: Decorative sword, id 4508, mdl 522
+Bajinga: Decorative armour, id 4509, mdl 468
+Bajinga: Decorative armour, id 4509, mdl 344
+Bajinga: Decorative armour, id 4510, mdl 432
+Bajinga: Decorative helm, id 4511, mdl 395
+Bajinga: Decorative helm, id 4511, mdl 117
+Bajinga: Decorative shield, id 4512, mdl 486
+Bajinga: Castlewars hood, id 4513, mdl 398
+Bajinga: Castlewars hood, id 4513, mdl 107
+Bajinga: Castlewars cloak, id 4514, mdl 5737
+Bajinga: Castlewars hood, id 4515, mdl 398
+Bajinga: Castlewars hood, id 4515, mdl 107
+Bajinga: Castlewars cloak, id 4516, mdl 5737
+Bajinga: Spiny helmet, id 4551, mdl 5796
+Bajinga: Spiny helmet, id 4551, mdl 5794
+Bajinga: Basket of eggs, id 4565, mdl 5811
+Bajinga: Rubber chicken, id 4566, mdl 5812
+Bajinga: Gold helmet, id 4567, mdl 5819
+Bajinga: Gold helmet, id 4567, mdl 120
+Bajinga: Gold helmet, id 4567, mdl 5813
+Bajinga: Black spear, id 4580, mdl 540
+Bajinga: Black spear(p), id 4582, mdl 540
+Bajinga: Black spear(kp), id 4584, mdl 540
+Bajinga: Dragon plateskirt, id 4585, mdl 6030
+Bajinga: Dragon scimitar, id 4587, mdl 6031
+Bajinga: Oak-blackjack, id 4599, mdl 6099
+Bajinga: Willow-blackjack, id 4600, mdl 6099
+Bajinga: Snake charm, id 4605, mdl 6101
+Bajinga: Desert disguise, id 4611, mdl 403
+Bajinga: Desert disguise, id 4611, mdl 364
+Bajinga: Desert disguise, id 4611, mdl 6096
+Bajinga: Desert disguise, id 4611, mdl 6211
+Bajinga: Desert disguise, id 4611, mdl 120
+Bajinga: Spinning plate, id 4613, mdl 6136
+Bajinga: Broken plate, id 4614, mdl 6137
+Bajinga: Ancient staff, id 4675, mdl 6232
+Bajinga: Cat speak amulet, id 4677, mdl 6469
+Bajinga: Gold leaf, id 4692, mdl 532
+Bajinga: Stone bowl, id 4704, mdl 6543
+Bajinga: Readbook dummy2, id 4705, mdl 6711
+Bajinga: Crumbling tome, id 4707, mdl 6711
+Bajinga: Ahrims hood, id 4708, mdl 5435
+Bajinga: Ahrims hood, id 4708, mdl 5429
+Bajinga: Ahrims staff, id 4710, mdl 6706
+Bajinga: Ahrims robetop, id 4712, mdl 6697
+Bajinga: Ahrims robetop, id 4712, mdl 348
+Bajinga: Ahrims robeskirt, id 4714, mdl 6691
+Bajinga: Dharoks helm, id 4716, mdl 6686
+Bajinga: Dharoks helm, id 4716, mdl 6574
+Bajinga: Dharoks greataxe, id 4718, mdl 6702
+Bajinga: Dharoks platebody, id 4720, mdl 6698
+Bajinga: Dharoks platebody, id 4720, mdl 6681
+Bajinga: Dharoks platelegs, id 4722, mdl 6692
+Bajinga: Guthans helm, id 4724, mdl 6687
+Bajinga: Guthans helm, id 4724, mdl 6575
+Bajinga: Guthans warspear, id 4726, mdl 6709
+Bajinga: Guthans platebody, id 4728, mdl 6699
+Bajinga: Guthans platebody, id 4728, mdl 6682
+Bajinga: Guthans chainskirt, id 4730, mdl 6695
+Bajinga: Karils coif, id 4732, mdl 6688
+Bajinga: Karils coif, id 4732, mdl 6571
+Bajinga: Karils coif, id 4732, mdl 120
+Bajinga: Karils crossbow, id 4734, mdl 6712
+Bajinga: Karils leathertop, id 4736, mdl 6700
+Bajinga: Karils leathertop, id 4736, mdl 6683
+Bajinga: Karils leatherskirt, id 4738, mdl 6694
+Bajinga: Torags helm, id 4745, mdl 6689
+Bajinga: Torags helm, id 4745, mdl 6576
+Bajinga: Torags hammers, id 4747, mdl 6707
+Bajinga: Torags platebody, id 4749, mdl 6701
+Bajinga: Torags platebody, id 4749, mdl 6684
+Bajinga: Torags platelegs, id 4751, mdl 6693
+Bajinga: Veracs helm, id 4753, mdl 6690
+Bajinga: Veracs helm, id 4753, mdl 6573
+Bajinga: Veracs flail, id 4755, mdl 6704
+Bajinga: Veracs brassard, id 4757, mdl 478
+Bajinga: Veracs brassard, id 4757, mdl 6685
+Bajinga: Veracs plateskirt, id 4759, mdl 6696
+Bajinga: Torn page, id 4809, mdl 532
+Bajinga: Sithik portrait, id 4814, mdl 532
+Bajinga: Sithik portrait, id 4815, mdl 532
+Bajinga: Signed portrait, id 4816, mdl 532
+Bajinga: Book of portraiture, id 4817, mdl 556
+Bajinga: Comp ogre bow, id 4827, mdl 6813
+Bajinga: Book of 'h.a.m', id 4829, mdl 556
+Bajinga: Necromancy book, id 4837, mdl 556
+Bajinga: Ahrims hood 100, id 4856, mdl 5435
+Bajinga: Ahrims hood 100, id 4856, mdl 5429
+Bajinga: Ahrims hood 75, id 4857, mdl 5435
+Bajinga: Ahrims hood 75, id 4857, mdl 5429
+Bajinga: Ahrims hood 50, id 4858, mdl 5435
+Bajinga: Ahrims hood 50, id 4858, mdl 5429
+Bajinga: Ahrims hood 25, id 4859, mdl 5435
+Bajinga: Ahrims hood 25, id 4859, mdl 5429
+Bajinga: Ahrims hood 0, id 4860, mdl 5435
+Bajinga: Ahrims hood 0, id 4860, mdl 5429
+Bajinga: Ahrims staff 100, id 4862, mdl 6706
+Bajinga: Ahrims staff 75, id 4863, mdl 6706
+Bajinga: Ahrims staff 50, id 4864, mdl 6706
+Bajinga: Ahrims staff 25, id 4865, mdl 6706
+Bajinga: Ahrims staff 0, id 4866, mdl 6706
+Bajinga: Ahrims top 100, id 4868, mdl 6697
+Bajinga: Ahrims top 100, id 4868, mdl 348
+Bajinga: Ahrims top 75, id 4869, mdl 6697
+Bajinga: Ahrims top 75, id 4869, mdl 348
+Bajinga: Ahrims top 50, id 4870, mdl 6697
+Bajinga: Ahrims top 50, id 4870, mdl 348
+Bajinga: Ahrims top 25, id 4871, mdl 6697
+Bajinga: Ahrims top 25, id 4871, mdl 348
+Bajinga: Ahrims top 0, id 4872, mdl 6697
+Bajinga: Ahrims top 0, id 4872, mdl 348
+Bajinga: Ahrims skirt 100, id 4874, mdl 6691
+Bajinga: Ahrims skirt 75, id 4875, mdl 6691
+Bajinga: Ahrims skirt 50, id 4876, mdl 6691
+Bajinga: Ahrims skirt 25, id 4877, mdl 6691
+Bajinga: Ahrims skirt 0, id 4878, mdl 6691
+Bajinga: Dharoks helm 100, id 4880, mdl 6686
+Bajinga: Dharoks helm 100, id 4880, mdl 6574
+Bajinga: Dharoks helm 75, id 4881, mdl 6686
+Bajinga: Dharoks helm 75, id 4881, mdl 6574
+Bajinga: Dharoks helm 50, id 4882, mdl 6686
+Bajinga: Dharoks helm 50, id 4882, mdl 6574
+Bajinga: Dharoks helm 25, id 4883, mdl 6686
+Bajinga: Dharoks helm 25, id 4883, mdl 6574
+Bajinga: Dharoks helm 0, id 4884, mdl 6686
+Bajinga: Dharoks helm 0, id 4884, mdl 6574
+Bajinga: Dharoks axe 100, id 4886, mdl 6702
+Bajinga: Dharoks axe 75, id 4887, mdl 6702
+Bajinga: Dharoks axe 50, id 4888, mdl 6702
+Bajinga: Dharoks axe 25, id 4889, mdl 6702
+Bajinga: Dharoks axe 0, id 4890, mdl 6702
+Bajinga: Dharoks body 100, id 4892, mdl 6698
+Bajinga: Dharoks body 100, id 4892, mdl 6681
+Bajinga: Dharoks body 75, id 4893, mdl 6698
+Bajinga: Dharoks body 75, id 4893, mdl 6681
+Bajinga: Dharoks body 50, id 4894, mdl 6698
+Bajinga: Dharoks body 50, id 4894, mdl 6681
+Bajinga: Dharoks body 25, id 4895, mdl 6698
+Bajinga: Dharoks body 25, id 4895, mdl 6681
+Bajinga: Dharoks body 0, id 4896, mdl 6698
+Bajinga: Dharoks body 0, id 4896, mdl 6681
+Bajinga: Dharoks legs 100, id 4898, mdl 6692
+Bajinga: Dharoks legs 75, id 4899, mdl 6692
+Bajinga: Dharoks legs 50, id 4900, mdl 6692
+Bajinga: Dharoks legs 25, id 4901, mdl 6692
+Bajinga: Dharoks legs 0, id 4902, mdl 6692
+Bajinga: Guthans helm 100, id 4904, mdl 6687
+Bajinga: Guthans helm 100, id 4904, mdl 6575
+Bajinga: Guthans helm 75, id 4905, mdl 6687
+Bajinga: Guthans helm 75, id 4905, mdl 6575
+Bajinga: Guthans helm 50, id 4906, mdl 6687
+Bajinga: Guthans helm 50, id 4906, mdl 6575
+Bajinga: Guthans helm 25, id 4907, mdl 6687
+Bajinga: Guthans helm 25, id 4907, mdl 6575
+Bajinga: Guthans helm 0, id 4908, mdl 6687
+Bajinga: Guthans helm 0, id 4908, mdl 6575
+Bajinga: Guthans spear 100, id 4910, mdl 6709
+Bajinga: Guthans spear 75, id 4911, mdl 6709
+Bajinga: Guthans spear 50, id 4912, mdl 6709
+Bajinga: Guthans spear 25, id 4913, mdl 6709
+Bajinga: Guthans spear 0, id 4914, mdl 6709
+Bajinga: Guthans body 100, id 4916, mdl 6699
+Bajinga: Guthans body 100, id 4916, mdl 6682
+Bajinga: Guthans body 75, id 4917, mdl 6699
+Bajinga: Guthans body 75, id 4917, mdl 6682
+Bajinga: Guthans body 50, id 4918, mdl 6699
+Bajinga: Guthans body 50, id 4918, mdl 6682
+Bajinga: Guthans body 25, id 4919, mdl 6699
+Bajinga: Guthans body 25, id 4919, mdl 6682
+Bajinga: Guthans body 0, id 4920, mdl 6699
+Bajinga: Guthans body 0, id 4920, mdl 6682
+Bajinga: Guthans skirt 100, id 4922, mdl 6695
+Bajinga: Guthans skirt 75, id 4923, mdl 6695
+Bajinga: Guthans skirt 50, id 4924, mdl 6695
+Bajinga: Guthans skirt 25, id 4925, mdl 6695
+Bajinga: Guthans skirt 0, id 4926, mdl 6695
+Bajinga: Karils coif 100, id 4928, mdl 6688
+Bajinga: Karils coif 100, id 4928, mdl 6571
+Bajinga: Karils coif 100, id 4928, mdl 120
+Bajinga: Karils coif 75, id 4929, mdl 6688
+Bajinga: Karils coif 75, id 4929, mdl 6571
+Bajinga: Karils coif 75, id 4929, mdl 120
+Bajinga: Karils coif 50, id 4930, mdl 6688
+Bajinga: Karils coif 50, id 4930, mdl 6571
+Bajinga: Karils coif 50, id 4930, mdl 120
+Bajinga: Karils coif 25, id 4931, mdl 6688
+Bajinga: Karils coif 25, id 4931, mdl 6571
+Bajinga: Karils coif 25, id 4931, mdl 120
+Bajinga: Karils coif 0, id 4932, mdl 6688
+Bajinga: Karils coif 0, id 4932, mdl 6571
+Bajinga: Karils coif 0, id 4932, mdl 120
+Bajinga: Karils x-bow 100, id 4934, mdl 6712
+Bajinga: Karils x-bow 75, id 4935, mdl 6712
+Bajinga: Karils x-bow 50, id 4936, mdl 6712
+Bajinga: Karils x-bow 25, id 4937, mdl 6712
+Bajinga: Karils x-bow 0, id 4938, mdl 6712
+Bajinga: Karils top 100, id 4940, mdl 6700
+Bajinga: Karils top 100, id 4940, mdl 6683
+Bajinga: Karils top 75, id 4941, mdl 6700
+Bajinga: Karils top 75, id 4941, mdl 6683
+Bajinga: Karils top 50, id 4942, mdl 6700
+Bajinga: Karils top 50, id 4942, mdl 6683
+Bajinga: Karils top 25, id 4943, mdl 6700
+Bajinga: Karils top 25, id 4943, mdl 6683
+Bajinga: Karils top 0, id 4944, mdl 6700
+Bajinga: Karils top 0, id 4944, mdl 6683
+Bajinga: Karils skirt 100, id 4946, mdl 6694
+Bajinga: Karils skirt 75, id 4947, mdl 6694
+Bajinga: Karils skirt 50, id 4948, mdl 6694
+Bajinga: Karils skirt 25, id 4949, mdl 6694
+Bajinga: Karils skirt 0, id 4950, mdl 6694
+Bajinga: Torags helm 100, id 4952, mdl 6689
+Bajinga: Torags helm 100, id 4952, mdl 6576
+Bajinga: Torags helm 75, id 4953, mdl 6689
+Bajinga: Torags helm 75, id 4953, mdl 6576
+Bajinga: Torags helm 50, id 4954, mdl 6689
+Bajinga: Torags helm 50, id 4954, mdl 6576
+Bajinga: Torags helm 25, id 4955, mdl 6689
+Bajinga: Torags helm 25, id 4955, mdl 6576
+Bajinga: Torags helm 0, id 4956, mdl 6689
+Bajinga: Torags helm 0, id 4956, mdl 6576
+Bajinga: Torags hammer 100, id 4958, mdl 6707
+Bajinga: Torags hammer 75, id 4959, mdl 6707
+Bajinga: Torags hammer 50, id 4960, mdl 6707
+Bajinga: Torags hammer 25, id 4961, mdl 6707
+Bajinga: Torags hammer 0, id 4962, mdl 6707
+Bajinga: Torags body 100, id 4964, mdl 6701
+Bajinga: Torags body 100, id 4964, mdl 6684
+Bajinga: Torags body 75, id 4965, mdl 6701
+Bajinga: Torags body 75, id 4965, mdl 6684
+Bajinga: Torags body 50, id 4966, mdl 6701
+Bajinga: Torags body 50, id 4966, mdl 6684
+Bajinga: Torags body 25, id 4967, mdl 6701
+Bajinga: Torags body 25, id 4967, mdl 6684
+Bajinga: Torags body 0, id 4968, mdl 6701
+Bajinga: Torags body 0, id 4968, mdl 6684
+Bajinga: Torags legs 100, id 4970, mdl 6693
+Bajinga: Torags legs 75, id 4971, mdl 6693
+Bajinga: Torags legs 50, id 4972, mdl 6693
+Bajinga: Torags legs 25, id 4973, mdl 6693
+Bajinga: Torags legs 0, id 4974, mdl 6693
+Bajinga: Veracs helm 100, id 4976, mdl 6690
+Bajinga: Veracs helm 100, id 4976, mdl 6573
+Bajinga: Veracs helm 75, id 4977, mdl 6690
+Bajinga: Veracs helm 75, id 4977, mdl 6573
+Bajinga: Veracs helm 50, id 4978, mdl 6690
+Bajinga: Veracs helm 50, id 4978, mdl 6573
+Bajinga: Veracs helm 25, id 4979, mdl 6690
+Bajinga: Veracs helm 25, id 4979, mdl 6573
+Bajinga: Veracs helm 0, id 4980, mdl 6690
+Bajinga: Veracs helm 0, id 4980, mdl 6573
+Bajinga: Veracs flail 100, id 4982, mdl 6704
+Bajinga: Veracs flail 75, id 4983, mdl 6704
+Bajinga: Veracs flail 50, id 4984, mdl 6704
+Bajinga: Veracs flail 25, id 4985, mdl 6704
+Bajinga: Veracs flail 0, id 4986, mdl 6704
+Bajinga: Veracs top 100, id 4988, mdl 478
+Bajinga: Veracs top 100, id 4988, mdl 6685
+Bajinga: Veracs top 75, id 4989, mdl 478
+Bajinga: Veracs top 75, id 4989, mdl 6685
+Bajinga: Veracs top 50, id 4990, mdl 478
+Bajinga: Veracs top 50, id 4990, mdl 6685
+Bajinga: Veracs top 25, id 4991, mdl 478
+Bajinga: Veracs top 25, id 4991, mdl 6685
+Bajinga: Veracs top 0, id 4992, mdl 478
+Bajinga: Veracs top 0, id 4992, mdl 6685
+Bajinga: Veracs skirt 100, id 4994, mdl 6696
+Bajinga: Veracs skirt 75, id 4995, mdl 6696
+Bajinga: Veracs skirt 50, id 4996, mdl 6696
+Bajinga: Veracs skirt 25, id 4997, mdl 6696
+Bajinga: Veracs skirt 0, id 4998, mdl 6696
+Bajinga: Mining helmet, id 5013, mdl 6960
+Bajinga: Mining helmet, id 5013, mdl 6952
+Bajinga: Mining helmet, id 5014, mdl 6961
+Bajinga: Mining helmet, id 5014, mdl 6952
+Bajinga: Bone spear, id 5016, mdl 6964
+Bajinga: Bone club, id 5018, mdl 6963
+Bajinga: Woven top, id 5024, mdl 7009
+Bajinga: Woven top, id 5024, mdl 7005
+Bajinga: Woven top, id 5026, mdl 7009
+Bajinga: Woven top, id 5026, mdl 7005
+Bajinga: Woven top, id 5028, mdl 7009
+Bajinga: Woven top, id 5028, mdl 7005
+Bajinga: Shirt, id 5030, mdl 7010
+Bajinga: Shirt, id 5030, mdl 7005
+Bajinga: Shirt, id 5032, mdl 7010
+Bajinga: Shirt, id 5032, mdl 7005
+Bajinga: Shirt, id 5034, mdl 7010
+Bajinga: Shirt, id 5034, mdl 7005
+Bajinga: Trousers, id 5036, mdl 7008
+Bajinga: Trousers, id 5038, mdl 7008
+Bajinga: Trousers, id 5040, mdl 7008
+Bajinga: Shorts, id 5042, mdl 7006
+Bajinga: Shorts, id 5044, mdl 7006
+Bajinga: Shorts, id 5046, mdl 7006
+Bajinga: Skirt, id 5048, mdl 7007
+Bajinga: Skirt, id 5050, mdl 7007
+Bajinga: Skirt, id 5052, mdl 7007
+Bajinga: Dwarven battleaxe, id 5060, mdl 7011
+Bajinga: Dwarven battleaxe, id 5061, mdl 7012
+Bajinga: Secateurs, id 5329, mdl 7126
+Bajinga: Watering can, id 5331, mdl 7368
+Bajinga: Watering can(1), id 5333, mdl 7368
+Bajinga: Watering can(2), id 5334, mdl 7368
+Bajinga: Watering can(3), id 5335, mdl 7368
+Bajinga: Watering can(4), id 5336, mdl 7368
+Bajinga: Watering can(5), id 5337, mdl 7368
+Bajinga: Watering can(6), id 5338, mdl 7368
+Bajinga: Watering can(7), id 5339, mdl 7368
+Bajinga: Watering can(8), id 5340, mdl 7368
+Bajinga: Rake, id 5341, mdl 7125
+Bajinga: Seed dibber, id 5343, mdl 7124
+Bajinga: Gardening boots, id 5345, mdl 7366
+Bajinga: Plant pot, id 5350, mdl 7372
+Bajinga: Binding necklace, id 5521, mdl 6852
+Bajinga: Tiara, id 5525, mdl 7493
+Bajinga: Tiara, id 5525, mdl 7465
+Bajinga: Air tiara, id 5527, mdl 7494
+Bajinga: Air tiara, id 5527, mdl 7466
+Bajinga: Mind tiara, id 5529, mdl 7503
+Bajinga: Mind tiara, id 5529, mdl 7475
+Bajinga: Water tiara, id 5531, mdl 7506
+Bajinga: Water tiara, id 5531, mdl 7478
+Bajinga: Body tiara, id 5533, mdl 7496
+Bajinga: Body tiara, id 5533, mdl 7468
+Bajinga: Earth tiara, id 5535, mdl 7500
+Bajinga: Earth tiara, id 5535, mdl 7472
+Bajinga: Fire tiara, id 5537, mdl 7501
+Bajinga: Fire tiara, id 5537, mdl 7473
+Bajinga: Cosmic tiara, id 5539, mdl 7498
+Bajinga: Cosmic tiara, id 5539, mdl 7470
+Bajinga: Nature tiara, id 5541, mdl 7504
+Bajinga: Nature tiara, id 5541, mdl 7476
+Bajinga: Chaos tiara, id 5543, mdl 7497
+Bajinga: Chaos tiara, id 5543, mdl 7469
+Bajinga: Law tiara, id 5545, mdl 7502
+Bajinga: Law tiara, id 5545, mdl 7474
+Bajinga: Death tiara, id 5547, mdl 7499
+Bajinga: Death tiara, id 5547, mdl 7471
+Bajinga: Blood tiara, id 5549, mdl 7495
+Bajinga: Blood tiara, id 5549, mdl 7467
+Bajinga: Soul tiara, id 5551, mdl 7505
+Bajinga: Soul tiara, id 5551, mdl 7477
+	 

@@ -83,7 +83,7 @@ public class Archive {
 		files = new byte[entries][];
 		int offset = buffer.position + this.entries * 10;
 		for (int file = 0; file < this.entries; file++) {
-			this.identifiers[file] = buffer.readUInt();
+			this.identifiers[file] = buffer.readInt();
 			this.extractedSizes[file] = buffer.readUTriByte();
 			this.sizes[file] = buffer.readUTriByte();
 			this.indices[file] = offset;
