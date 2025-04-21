@@ -201,4 +201,15 @@ public final class Index {
 		}
 	}
 
+	public int getFileCount() {
+		synchronized (index) {
+			try {
+				return (int) (index.length() / 6);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return 0;
+	}
 }

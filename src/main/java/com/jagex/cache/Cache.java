@@ -119,10 +119,14 @@ public class Cache {
 			
 	}
 	
+	public void writeFile(int index, int file, byte[] data) {
+		this.indices[index].put(data, file, data.length);
+	}
+
 	public byte[] getFile(int index, int file) {
 		return this.indices[index].decompress(file);
 	}
-	
+
 	/**
 	 * Updates this cache with the contents of another. Only missing files are added. This also updates the internal crc and version information.
 	 * <p>
@@ -230,5 +234,46 @@ public class Cache {
 			return false;
 		}
 		return true;
+	}
+
+	public void rebuildModels() {
+		byte[] orig = indices[0].decompress(5);
+
+		Archive archive = new Archive(orig);
+
+		int type = 0;
+		int index = type + 1;
+
+		int size = this.indices[index].getFileCount();
+
+		Buffer crc_buffer = new Buffer(size * 4);
+		Buffer version_buffer = new Buffer(size * 2);
+
+		for (int file = 0; file < size; file++) {
+			byte data[] = indices[index].decompress(file);
+			if(data == null) {
+				crc_buffer.writeInt(0);
+				version_buffer.writeShort(0);
+				continue;
+			}
+			int caret = data.length - 2;
+			int version = ((data[caret] & 0xff) << 8) + (data[caret + 1] & 0xff);
+			crc32.reset();
+			crc32.update(data, 0, caret);
+			int crc = (int) crc32.getValue();
+			crc_buffer.writeInt(crc);
+			version_buffer.writeShort(version);
+		}
+
+		archive.updateEntry(VERSION_NAMES[type], version_buffer.payload);
+		archive.updateEntry(CRC_NAMES[type], crc_buffer.payload);
+
+		try {
+			byte[] rebuilt = archive.recompile();
+			System.out.println("Updated version list - size was ("+orig.length+") and now is ("+rebuilt.length+")");
+			indices[0].put(rebuilt, 5, rebuilt.length);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
