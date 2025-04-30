@@ -3,6 +3,7 @@
 /data/
 .classpath
 .project
+*.idx5
 *.idx4
 *.idx3
 *.idx2
@@ -12,3 +13,6 @@
 .settings/org.eclipse.jdt.core.prefs
 *.mid
 *.def
+/.gradle
+/build
+/.idea
