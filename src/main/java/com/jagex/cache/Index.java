@@ -31,7 +31,7 @@ public final class Index {
 			int size = ((buffer[0] & 0xff) << 16) + ((buffer[1] & 0xff) << 8) + (buffer[2] & 0xff);
 			int sector = ((buffer[3] & 0xff) << 16) + ((buffer[4] & 0xff) << 8) + (buffer[5] & 0xff);
 
-			if (size < 0 || size > maximumSize) {
+			if (size < 0) {
 				return null;
 			} else if (sector <= 0 || sector > data.length() / 520L) {
 				return null;
@@ -84,15 +84,6 @@ public final class Index {
 	}
 
 	public synchronized void seek(RandomAccessFile file, int position) throws IOException {
-		if (position < 0 || position > 0x3c00000) {
-			System.out.println("Badseek - pos:" + position + " len:" + file.length());
-			position = 0x3c00000;
-
-			try {
-				Thread.sleep(1000L);
-			} catch (InterruptedException ex) {
-			}
-		}
 
 		file.seek(position);
 	}
@@ -201,4 +192,15 @@ public final class Index {
 		}
 	}
 
+	public int getFileCount() {
+		synchronized (index) {
+			try {
+				return (int) (index.length() / 6);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return 0;
+	}
 }
