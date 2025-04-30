@@ -60,6 +60,8 @@ public class TarnishCache {
 		for(int index : toPack) {
 			for(int i = 0; i < this.indices[index].getFileCount(); i++) {
 				byte[] orig = this.indices[index].decompress(i);
+				if(orig == null)
+					continue;
 				indices[index].put(orig, i, orig.length);
 			}
 		}
